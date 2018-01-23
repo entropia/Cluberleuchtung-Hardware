@@ -1,4 +1,4 @@
-update=Mo 01 Jan 2018 23:36:35 CET
+update=Wed 03 Jan 2018 23:54:41 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -47,3 +57,4 @@ LibName15=opto
 LibName16=contrib
 LibName17=libraries/components/stm32s
 LibName18=libraries/components/transceiver
+LibName19=libraries/components/switchingR
