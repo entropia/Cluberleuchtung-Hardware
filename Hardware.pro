@@ -1,4 +1,4 @@
-update=Wed 03 Jan 2018 23:54:41 CET
+update=Sun 04 Feb 2018 19:18:05 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,3 +58,5 @@ LibName16=contrib
 LibName17=libraries/components/stm32s
 LibName18=libraries/components/transceiver
 LibName19=libraries/components/switchingR
+LibName20=libraries/components/ledDriver
+LibName21=libraries/components/jacks

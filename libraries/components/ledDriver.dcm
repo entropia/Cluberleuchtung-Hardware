@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM3406
+D 1.5A Buck-LED-Driver
+K Buck, LED-Driver
+F http://www.ti.com/lit/ds/symlink/lm3406.pdf
+$ENDCMP
+#
+#End Doc Library

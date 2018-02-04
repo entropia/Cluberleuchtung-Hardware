@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Rotated_Barrel
+D DC Barrel Jack
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+#End Doc Library
