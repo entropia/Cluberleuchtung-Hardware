@@ -6,4 +6,10 @@ K Buck, LED-Driver
 F http://www.ti.com/lit/ds/symlink/lm3406.pdf
 $ENDCMP
 #
+$CMP LM3406HV
+D 1.5A Buck-LED-Driver
+K Buck, LED-Driver
+F https://www.digikey.com/product-detail/en/texas-instruments/LM3406HVMHX-NOPB/LM3406HVMHX-NOPBCT-ND/3526958
+$ENDCMP
+#
 #End Doc Library
