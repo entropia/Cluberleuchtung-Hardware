@@ -28,8 +28,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "Cluberleuchtung"
-Date "2018-01-02"
-Rev "0.1"
+Date "2018-02-14"
+Rev "1.0"
 Comp "Entropia"
 Comment1 ""
 Comment2 ""
