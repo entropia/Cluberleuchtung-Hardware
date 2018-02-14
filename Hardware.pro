@@ -1,4 +1,4 @@
-update=Sun 04 Feb 2018 19:18:05 CET
+update=Tue 13 Feb 2018 18:01:24 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName18=libraries/components/transceiver
 LibName19=libraries/components/switchingR
 LibName20=libraries/components/ledDriver
 LibName21=libraries/components/jacks
+LibName22=sensors
