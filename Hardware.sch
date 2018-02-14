@@ -148,7 +148,7 @@ $EndSheet
 Text GLabel 7350 5050 0    60   Input ~ 0
 C_PANEL
 $Sheet
-S 7500 5550 600  700 
+S 7500 5550 900  700 
 U 5A4C442B
 F0 "RGB" 60
 F1 "Driver.sch" 60
