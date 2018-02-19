@@ -1,4 +1,4 @@
-update=Tue 13 Feb 2018 18:01:24 CET
+update=Sa 17 Feb 2018 18:10:35 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,26 +38,3 @@ LabSize=60
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=switches
-LibName4=transistors
-LibName5=conn
-LibName6=linear
-LibName7=regul
-LibName8=74xx
-LibName9=analog_switches
-LibName10=texas
-LibName11=interface
-LibName12=philips
-LibName13=cypress
-LibName14=siliconi
-LibName15=opto
-LibName16=contrib
-LibName17=libraries/components/stm32s
-LibName18=libraries/components/transceiver
-LibName19=libraries/components/switchingR
-LibName20=libraries/components/ledDriver
-LibName21=libraries/components/jacks
-LibName22=sensors

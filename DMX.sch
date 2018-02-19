@@ -1,28 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:analog_switches
-LIBS:texas
-LIBS:interface
-LIBS:philips
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:contrib
-LIBS:stm32s
-LIBS:transceiver
-LIBS:switchingR
-LIBS:ledDriver
-LIBS:jacks
-LIBS:sensors
+EESchema Schematic File Version 4
 LIBS:Hardware-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -39,7 +17,7 @@ $EndDescr
 Text Notes 490  620  0    120  ~ 0
 RS485-Transceiver
 $Comp
-L MAX485E U10
+L interface:MAX485E U10
 U 1 1 5A8476FC
 P 2200 2150
 F 0 "U10" H 1960 2600 50  0000 C CNN
@@ -50,7 +28,7 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4b/81/a
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C30
+L device:C_Small C30
 U 1 1 5A847703
 P 2400 1400
 F 0 "C30" V 2500 1350 50  0000 L CNN
@@ -61,7 +39,7 @@ F 3 "" H 2400 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR084
+L power:GND #PWR084
 U 1 1 5A84770A
 P 2600 1450
 F 0 "#PWR084" H 2600 1200 50  0001 C CNN
@@ -72,7 +50,7 @@ F 3 "" H 2600 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR085
+L power:+5V #PWR085
 U 1 1 5A847710
 P 2200 1300
 F 0 "#PWR085" H 2200 1150 50  0001 C CNN
@@ -83,7 +61,7 @@ F 3 "" H 2200 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR086
+L power:GND #PWR086
 U 1 1 5A847716
 P 2200 2900
 F 0 "#PWR086" H 2200 2650 50  0001 C CNN
@@ -94,7 +72,7 @@ F 3 "" H 2200 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R22
+L device:R R22
 U 1 1 5A84771C
 P 1050 2250
 F 0 "R22" V 1130 2250 50  0000 C CNN
@@ -105,7 +83,7 @@ F 3 "" H 1050 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R24
+L device:R R24
 U 1 1 5A847723
 P 1050 2650
 F 0 "R24" V 1130 2650 50  0000 C CNN
@@ -116,7 +94,7 @@ F 3 "" H 1050 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR087
+L power:GND #PWR087
 U 1 1 5A84772A
 P 1050 2900
 F 0 "#PWR087" H 1050 2650 50  0001 C CNN
@@ -127,7 +105,7 @@ F 3 "" H 1050 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R25
+L device:R R25
 U 1 1 5A847733
 P 1750 2650
 F 0 "R25" V 1830 2650 50  0000 C CNN
@@ -140,7 +118,7 @@ $EndComp
 Text Notes 550  1600 0    60   ~ 0
 UART_SE pulled high while sending
 $Comp
-L R R23
+L device:R R23
 U 1 1 5A847744
 P 3100 2400
 F 0 "R23" V 3180 2400 50  0000 C CNN
@@ -151,7 +129,7 @@ F 3 "" H 3100 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper_NC_Small JP2
+L device:Jumper_NC_Small JP2
 U 1 1 5A84774B
 P 2800 2400
 F 0 "JP2" H 2800 2480 50  0000 C CNN

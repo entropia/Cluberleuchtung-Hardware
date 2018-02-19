@@ -1,28 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:analog_switches
-LIBS:texas
-LIBS:interface
-LIBS:philips
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:contrib
-LIBS:stm32s
-LIBS:transceiver
-LIBS:switchingR
-LIBS:ledDriver
-LIBS:jacks
-LIBS:sensors
+EESchema Schematic File Version 4
 LIBS:Hardware-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,7 +27,7 @@ F6 "3V3" O R 10600 5250 60
 F7 "GND" I R 10600 5400 60 
 $EndSheet
 $Comp
-L +48V #PWR01
+L power:+48V #PWR01
 U 1 1 5A4C2152
 P 9000 4850
 F 0 "#PWR01" H 9000 4700 50  0001 C CNN
@@ -60,7 +38,7 @@ F 3 "" H 9000 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5A4C226C
 P 9000 5500
 F 0 "#PWR02" H 9000 5250 50  0001 C CNN
@@ -71,7 +49,7 @@ F 3 "" H 9000 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5A4C256F
 P 10650 5500
 F 0 "#PWR03" H 10650 5250 50  0001 C CNN
@@ -82,7 +60,7 @@ F 3 "" H 10650 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR04
+L power:+12V #PWR04
 U 1 1 5A4C2BF8
 P 10650 4850
 F 0 "#PWR04" H 10650 4700 50  0001 C CNN
@@ -93,7 +71,7 @@ F 3 "" H 10650 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR05
+L power:+5V #PWR05
 U 1 1 5A4C2CD7
 P 10850 4850
 F 0 "#PWR05" H 10850 4700 50  0001 C CNN
@@ -104,7 +82,7 @@ F 3 "" H 10850 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR06
+L power:+3.3V #PWR06
 U 1 1 5A4C2D83
 P 11050 4850
 F 0 "#PWR06" H 11050 4700 50  0001 C CNN
@@ -124,7 +102,7 @@ F3 "GND" I L 7500 4550 60
 F4 "CONTROL" I L 7500 4350 60 
 $EndSheet
 $Comp
-L +48V #PWR07
+L power:+48V #PWR07
 U 1 1 5A4C3791
 P 7400 4050
 F 0 "#PWR07" H 7400 3900 50  0001 C CNN
@@ -159,7 +137,7 @@ F5 "R_RGB" I L 7500 5750 60
 F6 "GND" I L 7500 6200 60 
 $EndSheet
 $Comp
-L +12V #PWR08
+L power:+12V #PWR08
 U 1 1 5A4C51A2
 P 7350 5600
 F 0 "#PWR08" H 7350 5450 50  0001 C CNN
@@ -170,7 +148,7 @@ F 3 "" H 7350 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5A4C5346
 P 7450 6300
 F 0 "#PWR09" H 7450 6050 50  0001 C CNN
@@ -187,12 +165,12 @@ G_RGB
 Text GLabel 7250 6050 0    60   Input ~ 0
 B_RGB
 $Comp
-L STM32F042G6Ux U2
+L stm32s:STM32F042G6Ux U2
 U 1 1 5A465498
 P 4200 2350
 F 0 "U2" H 2500 3350 50  0000 L BNN
 F 1 "STM32F042G6Ux" H 5900 3350 50  0000 R BNN
-F 2 "" H 5850 3250 50  0001 R TNN
+F 2 "QFP:UFQFPN-28_4x4mm_Pitch0.5mm" H 5850 3250 50  0001 R TNN
 F 3 "" H 4200 2350 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F042G6U6/497-17345-ND/5268192" H 4200 2350 60  0001 C CNN "Digikey"
 	1    4200 2350
@@ -213,7 +191,7 @@ UART2_SE
 Text Notes 500  650  0    120  ~ 0
 STM32F042
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 5A46A765
 P 2350 3350
 F 0 "#PWR010" H 2350 3100 50  0001 C CNN
@@ -224,7 +202,7 @@ F 3 "" H 2350 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L device:R R1
 U 1 1 5A46A52E
 P 2350 3150
 F 0 "R1" V 2430 3150 50  0000 C CNN
@@ -235,7 +213,7 @@ F 3 "" H 2350 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 5A46A3B3
 P 850 2050
 F 0 "#PWR011" H 850 1800 50  0001 C CNN
@@ -246,7 +224,7 @@ F 3 "" H 850 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L device:C_Small C4
 U 1 1 5A46A31B
 P 850 1900
 F 0 "C4" H 860 1970 50  0000 L CNN
@@ -257,7 +235,7 @@ F 3 "" H 850 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP_Small C1
+L device:CP_Small C1
 U 1 1 5A469943
 P 4400 750
 F 0 "C1" V 4300 700 50  0000 L CNN
@@ -268,7 +246,7 @@ F 3 "" H 4400 750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5A4696DF
 P 4600 1100
 F 0 "#PWR012" H 4600 850 50  0001 C CNN
@@ -279,7 +257,7 @@ F 3 "" H 4600 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L device:C_Small C2
 U 1 1 5A469567
 P 4400 1050
 F 0 "C2" V 4500 1000 50  0000 L CNN
@@ -312,18 +290,18 @@ CAN_TX
 Text GLabel 6050 2550 2    60   Input ~ 0
 CAN_RX
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 5A46559C
-P 4200 3450
-F 0 "#PWR013" H 4200 3200 50  0001 C CNN
-F 1 "GND" H 4200 3300 50  0000 C CNN
-F 2 "" H 4200 3450 50  0001 C CNN
-F 3 "" H 4200 3450 50  0001 C CNN
-	1    4200 3450
+P 4200 3350
+F 0 "#PWR013" H 4200 3100 50  0001 C CNN
+F 1 "GND" H 4200 3200 50  0000 C CNN
+F 2 "" H 4200 3350 50  0001 C CNN
+F 3 "" H 4200 3350 50  0001 C CNN
+	1    4200 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR014
+L power:+3.3V #PWR014
 U 1 1 5A46551F
 P 4200 700
 F 0 "#PWR014" H 4200 550 50  0001 C CNN
@@ -334,7 +312,7 @@ F 3 "" H 4200 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_Small Y1
+L device:Crystal_Small Y1
 U 1 1 5A835D32
 P 1650 2000
 F 0 "Y1" H 1650 2100 50  0000 C CNN
@@ -346,7 +324,7 @@ F 4 "https://www.digikey.com/product-detail/en/abracon-llc/ABLS-8.000MHZ-B4-T/53
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C3
+L device:C_Small C3
 U 1 1 5A83D8BB
 P 1400 1850
 F 0 "C3" H 1410 1920 50  0000 L CNN
@@ -357,7 +335,7 @@ F 3 "" H 1400 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C5
+L device:C_Small C5
 U 1 1 5A83DA3B
 P 1400 2150
 F 0 "C5" H 1410 2220 50  0000 L CNN
@@ -369,7 +347,7 @@ F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21C15
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 5A83DED1
 P 1100 2100
 F 0 "#PWR015" H 1100 1850 50  0001 C CNN
@@ -379,22 +357,10 @@ F 3 "" H 1100 2100 50  0001 C CNN
 	1    1100 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L MCP9700AT-E/TT U1
-U 1 1 5A83347C
-P 7700 1350
-F 0 "U1" H 7450 1600 50  0000 C CNN
-F 1 "MCP9700AT-E/TT" H 7750 1600 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 7700 950 50  0001 C CNN
-F 3 "" H 7550 1600 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/microchip-technology/MCP9700T-E-TT/MCP9700T-E-TTCT-ND/1212545" H 7700 1350 60  0001 C CNN "Digikey"
-	1    7700 1350
-	1    0    0    -1  
-$EndComp
 Text Notes 6725 625  0    120  ~ 0
 Temperature-Sensors
 $Comp
-L +3.3V #PWR016
+L power:+3.3V #PWR016
 U 1 1 5A836571
 P 7700 950
 F 0 "#PWR016" H 7700 800 50  0001 C CNN
@@ -405,7 +371,7 @@ F 3 "" H 7700 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5A836736
 P 7700 1750
 F 0 "#PWR017" H 7700 1500 50  0001 C CNN
@@ -418,19 +384,7 @@ $EndComp
 Text GLabel 8150 1350 2    60   Input ~ 0
 TEMP1
 $Comp
-L MCP9700AT-E/TT U3
-U 1 1 5A8374F7
-P 7700 2700
-F 0 "U3" H 7450 2950 50  0000 C CNN
-F 1 "MCP9700AT-E/TT" H 7750 2950 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 7700 2300 50  0001 C CNN
-F 3 "" H 7550 2950 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/microchip-technology/MCP9700T-E-TT/MCP9700T-E-TTCT-ND/1212545" H 7700 2700 60  0001 C CNN "Digikey"
-	1    7700 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR018
+L power:+3.3V #PWR018
 U 1 1 5A8374FD
 P 7700 2300
 F 0 "#PWR018" H 7700 2150 50  0001 C CNN
@@ -441,7 +395,7 @@ F 3 "" H 7700 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 5A837504
 P 7700 3100
 F 0 "#PWR019" H 7700 2850 50  0001 C CNN
@@ -492,7 +446,7 @@ F7 "DMX_B" B R 10500 1600 60
 F8 "UART_SE" I L 9550 1300 60 
 $EndSheet
 $Comp
-L GND #PWR020
+L power:GND #PWR020
 U 1 1 5A85098C
 P 9500 2950
 F 0 "#PWR020" H 9500 2700 50  0001 C CNN
@@ -503,7 +457,7 @@ F 3 "" H 9500 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR021
+L power:+5V #PWR021
 U 1 1 5A850F4A
 P 9450 1050
 F 0 "#PWR021" H 9450 900 50  0001 C CNN
@@ -514,7 +468,7 @@ F 3 "" H 9450 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR022
+L power:+3.3V #PWR022
 U 1 1 5A851B94
 P 9300 2400
 F 0 "#PWR022" H 9300 2250 50  0001 C CNN
@@ -539,7 +493,7 @@ Transceivers
 Text Notes 6725 3800 0    120  ~ 0
 LED-Drivers
 $Comp
-L Conn_02x05_Odd_Even J1
+L Connector:Conn_02x05_Odd_Even J1
 U 1 1 5A86F850
 P 4300 4150
 F 0 "J1" H 4350 4450 50  0000 C CNN
@@ -557,7 +511,7 @@ Text GLabel 4800 4150 2    60   Input ~ 0
 SWD_CLK
 NoConn ~ 4100 4150
 $Comp
-L Conn_02x04_Odd_Even J4
+L Connector:Conn_02x05_Odd_Even J4
 U 1 1 5A8769E8
 P 4300 5650
 F 0 "J4" H 4350 5850 50  0000 C CNN
@@ -572,7 +526,7 @@ UART1_TX
 Text GLabel 4700 5850 2    60   Input ~ 0
 UART1_RX
 $Comp
-L +3.3V #PWR023
+L power:+3.3V #PWR023
 U 1 1 5A87839A
 P 4650 5450
 F 0 "#PWR023" H 4650 5300 50  0001 C CNN
@@ -583,7 +537,7 @@ F 3 "" H 4650 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 5A878654
 P 4050 5950
 F 0 "#PWR024" H 4050 5700 50  0001 C CNN
@@ -598,7 +552,7 @@ SPARE6
 Text GLabel 3750 5750 0    60   Input ~ 0
 SPARE7
 $Comp
-L R_Small R2
+L device:R_Small R2
 U 1 1 5A87B16E
 P 4800 5550
 F 0 "R2" H 4830 5570 50  0000 L CNN
@@ -609,7 +563,7 @@ F 3 "" H 4800 5550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +48V #PWR025
+L power:+48V #PWR025
 U 1 1 5A87C709
 P 6150 4150
 F 0 "#PWR025" H 6150 4000 50  0001 C CNN
@@ -620,7 +574,7 @@ F 3 "" H 6150 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR026
+L power:+12V #PWR026
 U 1 1 5A87C7F3
 P 5950 4150
 F 0 "#PWR026" H 5950 4000 50  0001 C CNN
@@ -631,7 +585,7 @@ F 3 "" H 5950 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR027
+L power:+5V #PWR027
 U 1 1 5A87C8DD
 P 5750 4150
 F 0 "#PWR027" H 5750 4000 50  0001 C CNN
@@ -642,7 +596,7 @@ F 3 "" H 5750 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR028
+L power:+3.3V #PWR028
 U 1 1 5A87CCC9
 P 5550 4150
 F 0 "#PWR028" H 5550 4000 50  0001 C CNN
@@ -653,7 +607,7 @@ F 3 "" H 5550 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x05_Female J2
+L Connector:Conn_01x05_Female J2
 U 1 1 5A87D7AE
 P 6400 4450
 F 0 "J2" H 6400 4750 50  0000 C CNN
@@ -664,7 +618,7 @@ F 3 "" H 6400 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 5A87EC60
 P 6150 4750
 F 0 "#PWR029" H 6150 4500 50  0001 C CNN
@@ -675,7 +629,7 @@ F 3 "" H 6150 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x07_Female J3
+L Connector:Conn_01x07_Female J3
 U 1 1 5A880979
 P 6400 5400
 F 0 "J3" H 6400 5800 50  0000 C CNN
@@ -700,21 +654,14 @@ SPARE6
 Text GLabel 5850 5700 0    60   Input ~ 0
 SPARE7
 Wire Wire Line
-	4100 1250 4300 1250
+	4100 1250 4200 1250
 Wire Wire Line
 	4100 1250 4100 1300
 Wire Wire Line
-	4200 700  4200 1300
+	4200 700  4200 750 
 Wire Wire Line
 	4300 1250 4300 1300
 Connection ~ 4200 1250
-Wire Wire Line
-	4200 3300 4200 3450
-Wire Wire Line
-	4200 3350 4100 3350
-Wire Wire Line
-	4100 3350 4100 3300
-Connection ~ 4200 3350
 Wire Wire Line
 	6050 2550 6000 2550
 Wire Wire Line
@@ -734,7 +681,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 2250 6050 2250
 Wire Wire Line
-	800  1750 2400 1750
+	800  1750 850  1750
 Wire Wire Line
 	4300 1050 4200 1050
 Connection ~ 4200 1050
@@ -744,7 +691,7 @@ Connection ~ 4200 750
 Wire Wire Line
 	4500 750  4600 750 
 Wire Wire Line
-	4600 750  4600 1100
+	4600 750  4600 1050
 Wire Wire Line
 	4500 1050 4600 1050
 Connection ~ 4600 1050
@@ -756,7 +703,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 3000 2350 2950
 Wire Wire Line
-	2200 2950 2400 2950
+	2200 2950 2350 2950
 Wire Wire Line
 	2350 3350 2350 3300
 Wire Notes Line
@@ -792,7 +739,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 5050 7500 5050
 Wire Wire Line
-	7450 4550 7450 6300
+	7450 4550 7450 5250
 Wire Wire Line
 	7450 6200 7500 6200
 Wire Wire Line
@@ -814,7 +761,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 1850 1650 1900
 Wire Wire Line
-	1500 1850 1850 1850
+	1500 1850 1650 1850
 Wire Wire Line
 	1850 1850 1850 1950
 Wire Wire Line
@@ -822,13 +769,13 @@ Wire Wire Line
 Wire Wire Line
 	1650 2150 1650 2100
 Wire Wire Line
-	1850 2150 1500 2150
+	1850 2150 1650 2150
 Connection ~ 1650 2150
 Connection ~ 1650 1850
 Wire Wire Line
 	1200 2150 1300 2150
 Wire Wire Line
-	1200 1850 1200 2150
+	1200 1850 1200 2000
 Wire Wire Line
 	1200 1850 1300 1850
 Wire Wire Line
@@ -856,14 +803,14 @@ Wire Wire Line
 	2250 2650 2400 2650
 Connection ~ 2350 2950
 Wire Wire Line
-	9500 1750 9500 2950
+	9500 1750 9500 2850
 Wire Wire Line
 	9500 2850 9550 2850
 Wire Wire Line
 	9500 1750 9550 1750
 Connection ~ 9500 2850
 Wire Wire Line
-	9450 1050 9450 2250
+	9450 1050 9450 1150
 Wire Wire Line
 	9450 1150 9550 1150
 Connection ~ 9450 1150
@@ -892,7 +839,7 @@ Wire Wire Line
 	7450 4550 7500 4550
 Connection ~ 7450 5250
 Wire Wire Line
-	7400 4050 7400 4850
+	7400 4050 7400 4150
 Wire Wire Line
 	7400 4150 7500 4150
 Wire Wire Line
@@ -925,7 +872,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 5450 4650 5550
 Wire Wire Line
-	4600 5550 4700 5550
+	4600 5550 4650 5550
 Wire Wire Line
 	4050 5950 4050 5850
 Wire Wire Line
@@ -940,7 +887,7 @@ Connection ~ 4650 5550
 Wire Wire Line
 	4600 5650 4950 5650
 Wire Wire Line
-	4950 5550 4950 5750
+	4950 5550 4950 5650
 Wire Wire Line
 	4950 5550 4900 5550
 Wire Wire Line
@@ -990,16 +937,16 @@ Wire Wire Line
 Wire Wire Line
 	3950 5200 3950 4350
 Wire Wire Line
-	3950 5200 4750 5200
+	3950 5200 4350 5200
 Connection ~ 4350 4950
 Wire Wire Line
 	4000 4950 4000 4250
 Wire Wire Line
 	4700 4950 4700 4250
 Wire Wire Line
-	4000 4950 4700 4950
+	4000 4950 4350 4950
 $Comp
-L +3.3V #PWR030
+L power:+3.3V #PWR030
 U 1 1 5A873419
 P 4350 4950
 F 0 "#PWR030" H 4350 4800 50  0001 C CNN
@@ -1010,7 +957,7 @@ F 3 "" H 4350 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR031
+L power:+5V #PWR031
 U 1 1 5A873333
 P 4350 5200
 F 0 "#PWR031" H 4350 5050 50  0001 C CNN
@@ -1026,9 +973,9 @@ Wire Wire Line
 Wire Wire Line
 	4050 4550 4050 4050
 Wire Wire Line
-	4050 4550 4650 4550
+	4050 4550 4350 4550
 $Comp
-L GND #PWR032
+L power:GND #PWR032
 U 1 1 5A872D94
 P 4350 4550
 F 0 "#PWR032" H 4350 4300 50  0001 C CNN
@@ -1045,7 +992,7 @@ Connectors
 Wire Wire Line
 	6000 2050 6150 2050
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 5A85A79C
 P 700 4050
 F 0 "#PWR033" H 700 3800 50  0001 C CNN
@@ -1056,7 +1003,7 @@ F 3 "" H 700 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG034
+L power:PWR_FLAG #FLG034
 U 1 1 5A85A88A
 P 700 4000
 F 0 "#FLG034" H 700 4075 50  0001 C CNN
@@ -1069,7 +1016,7 @@ $EndComp
 Wire Wire Line
 	700  4000 700  4050
 $Comp
-L +48V #PWR035
+L power:+48V #PWR035
 U 1 1 5A85AA98
 P 1100 4050
 F 0 "#PWR035" H 1100 3900 50  0001 C CNN
@@ -1080,7 +1027,7 @@ F 3 "" H 1100 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG036
+L power:PWR_FLAG #FLG036
 U 1 1 5A85AC8C
 P 1100 4000
 F 0 "#FLG036" H 1100 4075 50  0001 C CNN
@@ -1093,7 +1040,7 @@ $EndComp
 Wire Wire Line
 	1100 4050 1100 4000
 $Comp
-L RJ45 J5
+L Connector:RJ45 J5
 U 1 1 5A85CDF5
 P 4050 6750
 F 0 "J5" H 4250 7250 50  0000 C CNN
@@ -1104,7 +1051,7 @@ F 3 "" H 4050 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ45 J6
+L Connector:RJ45 J6
 U 1 1 5A85D43C
 P 5700 6750
 F 0 "J6" H 5900 7250 50  0000 C CNN
@@ -1117,31 +1064,31 @@ $EndComp
 Wire Wire Line
 	4600 6400 4600 6200
 Wire Wire Line
-	4600 6200 6350 6200
+	4600 6200 6250 6200
 Wire Wire Line
 	6250 6200 6250 6400
 Wire Wire Line
 	3700 7200 3700 7250
 Wire Wire Line
-	3700 7250 5350 7250
+	3700 7250 4650 7250
 Wire Wire Line
 	5350 7250 5350 7200
 Wire Wire Line
 	3800 7200 3800 7300
 Wire Wire Line
-	3800 7300 5450 7300
+	3800 7300 4750 7300
 Wire Wire Line
 	5450 7300 5450 7200
 Wire Wire Line
 	3900 7200 3900 7350
 Wire Wire Line
-	3900 7350 5550 7350
+	3900 7350 4950 7350
 Wire Wire Line
 	5550 7350 5550 7200
 Wire Wire Line
 	5650 7400 5650 7200
 Wire Wire Line
-	4000 7400 5650 7400
+	4000 7400 5050 7400
 Wire Wire Line
 	4000 7400 4000 7200
 Text GLabel 10550 1300 2    60   Input ~ 0
@@ -1189,7 +1136,7 @@ NoConn ~ 5850 7200
 NoConn ~ 5950 7200
 NoConn ~ 6050 7200
 $Comp
-L GND #PWR037
+L power:GND #PWR037
 U 1 1 5A863F07
 P 6350 6350
 F 0 "#PWR037" H 6350 6100 50  0001 C CNN
@@ -1202,4 +1149,80 @@ $EndComp
 Wire Wire Line
 	6350 6200 6350 6350
 Connection ~ 6250 6200
+Wire Wire Line
+	4200 1250 4300 1250
+Wire Wire Line
+	4200 1250 4200 1300
+Wire Wire Line
+	4200 1050 4200 1250
+Wire Wire Line
+	4200 750  4200 1050
+Wire Wire Line
+	4600 1050 4600 1100
+Wire Wire Line
+	850  1750 2400 1750
+Wire Wire Line
+	1650 2150 1500 2150
+Wire Wire Line
+	1650 1850 1850 1850
+Wire Wire Line
+	1200 2000 1200 2150
+Wire Wire Line
+	2350 2950 2400 2950
+Wire Wire Line
+	9500 2850 9500 2950
+Wire Wire Line
+	9450 1150 9450 2250
+Wire Wire Line
+	7450 6200 7450 6300
+Wire Wire Line
+	7450 5250 7450 6200
+Wire Wire Line
+	7400 4150 7400 4850
+Wire Wire Line
+	4650 5550 4700 5550
+Wire Wire Line
+	4950 5650 4950 5750
+Wire Wire Line
+	4350 5200 4750 5200
+Wire Wire Line
+	4350 4950 4700 4950
+Wire Wire Line
+	4350 4550 4650 4550
+Wire Wire Line
+	4650 7250 5350 7250
+Wire Wire Line
+	4750 7300 5450 7300
+Wire Wire Line
+	4950 7350 5550 7350
+Wire Wire Line
+	5050 7400 5650 7400
+Wire Wire Line
+	6250 6200 6350 6200
+Wire Wire Line
+	4200 3300 4200 3350
+$Comp
+L mcp9700t:MCP9700T U3
+U 1 1 5A8A8558
+P 7700 2700
+F 0 "U3" H 7370 2746 50  0000 R CNN
+F 1 "MCP9700T" H 7370 2655 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7700 2300 50  0001 C CNN
+F 3 "" H 7550 2950 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/microchip-technology/MCP9700T-E-TT/MCP9700T-E-TTCT-ND/1212545" H 7700 2700 50  0001 C CNN "Digikey"
+	1    7700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mcp9700t:MCP9700T U1
+U 1 1 5A8A872C
+P 7700 1350
+F 0 "U1" H 7370 1396 50  0000 R CNN
+F 1 "MCP9700T" H 7370 1305 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7700 950 50  0001 C CNN
+F 3 "" H 7550 1600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/microchip-technology/MCP9700T-E-TT/MCP9700T-E-TTCT-ND/1212545" H 7700 1350 50  0001 C CNN "Digikey"
+	1    7700 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

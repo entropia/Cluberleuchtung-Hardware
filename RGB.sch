@@ -1,28 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:analog_switches
-LIBS:texas
-LIBS:interface
-LIBS:philips
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:contrib
-LIBS:stm32s
-LIBS:transceiver
-LIBS:switchingR
-LIBS:ledDriver
-LIBS:jacks
-LIBS:sensors
+EESchema Schematic File Version 4
 LIBS:Hardware-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -43,7 +21,7 @@ B_RGB
 Text HLabel 925  1900 0    60   Input ~ 0
 G_RGB
 $Comp
-L +12V #PWR075
+L power:+12V #PWR075
 U 1 1 5A83A3DF
 P 2475 950
 F 0 "#PWR075" H 2475 800 50  0001 C CNN
@@ -58,7 +36,7 @@ Wire Wire Line
 Wire Wire Line
 	1325 1900 1775 1900
 $Comp
-L GND #PWR076
+L power:GND #PWR076
 U 1 1 5A83A3E9
 P 2475 1600
 F 0 "#PWR076" H 2475 1350 50  0001 C CNN
@@ -69,7 +47,7 @@ F 3 "" H 2475 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR077
+L power:GND #PWR077
 U 1 1 5A83A3EF
 P 2075 2100
 F 0 "#PWR077" H 2075 1850 50  0001 C CNN
@@ -80,7 +58,7 @@ F 3 "" H 2075 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR078
+L power:GND #PWR078
 U 1 1 5A83A3F5
 P 1675 2600
 F 0 "#PWR078" H 1675 2350 50  0001 C CNN
@@ -93,7 +71,7 @@ $EndComp
 Wire Wire Line
 	1675 1150 1675 2200
 $Comp
-L 2N7002 Q3
+L Transistor:2N7002 Q3
 U 1 1 5A83A3FE
 P 1575 2400
 F 0 "Q3" H 1775 2475 50  0000 L CNN
@@ -105,7 +83,7 @@ F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2302UK-7/D
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2N7002 Q2
+L Transistor:2N7002 Q2
 U 1 1 5A83A406
 P 1975 1900
 F 0 "Q2" H 2175 1975 50  0000 L CNN
@@ -117,7 +95,7 @@ F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2302UK-7/D
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2N7002 Q1
+L Transistor:2N7002 Q1
 U 1 1 5A83A40E
 P 2375 1400
 F 0 "Q1" H 2575 1475 50  0000 L CNN
@@ -141,7 +119,7 @@ Wire Notes Line
 Wire Wire Line
 	1325 2400 1375 2400
 $Comp
-L R R17
+L device:R R17
 U 1 1 5A8936F2
 P 1175 1400
 F 0 "R17" V 1255 1400 50  0000 C CNN
@@ -156,7 +134,7 @@ Wire Wire Line
 Wire Wire Line
 	1325 1400 2175 1400
 $Comp
-L R R18
+L device:R R18
 U 1 1 5A8938B9
 P 1175 1900
 F 0 "R18" V 1255 1900 50  0000 C CNN
@@ -169,7 +147,7 @@ $EndComp
 Wire Wire Line
 	1025 1900 925  1900
 $Comp
-L R R19
+L device:R R19
 U 1 1 5A8939A3
 P 1175 2400
 F 0 "R19" V 1255 2400 50  0000 C CNN
@@ -182,7 +160,7 @@ $EndComp
 Wire Wire Line
 	1025 2400 875  2400
 $Comp
-L Screw_Terminal_01x04 J9
+L Connector:Screw_Terminal_01x04 J9
 U 1 1 5A84BDDF
 P 2025 850
 F 0 "J9" H 2025 1050 50  0000 C CNN

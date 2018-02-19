@@ -1,28 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:analog_switches
-LIBS:texas
-LIBS:interface
-LIBS:philips
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:contrib
-LIBS:stm32s
-LIBS:transceiver
-LIBS:switchingR
-LIBS:ledDriver
-LIBS:jacks
-LIBS:sensors
+EESchema Schematic File Version 4
 LIBS:Hardware-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -37,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R13
+L device:R R13
 U 1 1 5A7753B7
 P 1350 1300
 AR Path="/5A4C34AF/5A7753B7" Ref="R13"  Part="1" 
@@ -51,7 +29,7 @@ F 4 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07162KL/311-162KCR
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C22
+L device:C_Small C22
 U 1 1 5A77745B
 P 1500 2150
 AR Path="/5A4C34AF/5A77745B" Ref="C22"  Part="1" 
@@ -65,7 +43,7 @@ F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR061
+L power:GND #PWR061
 U 1 1 5A777BDD
 P 1500 2300
 AR Path="/5A4C34AF/5A777BDD" Ref="#PWR061"  Part="1" 
@@ -78,7 +56,7 @@ F 3 "" H 1500 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C23
+L device:C_Small C23
 U 1 1 5A777CD4
 P 2700 2150
 AR Path="/5A4C34AF/5A777CD4" Ref="C23"  Part="1" 
@@ -92,7 +70,7 @@ F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR062
+L power:GND #PWR062
 U 1 1 5A777CDA
 P 2700 2300
 AR Path="/5A4C34AF/5A777CDA" Ref="#PWR062"  Part="1" 
@@ -105,7 +83,7 @@ F 3 "" H 2700 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR063
+L power:GND #PWR063
 U 1 1 5A777FA3
 P 2100 2300
 AR Path="/5A4C34AF/5A777FA3" Ref="#PWR063"  Part="1" 
@@ -118,7 +96,7 @@ F 3 "" H 2100 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C20
+L device:C_Small C20
 U 1 1 5A77816D
 P 2450 850
 AR Path="/5A4C34AF/5A77816D" Ref="C20"  Part="1" 
@@ -176,7 +154,7 @@ Wire Wire Line
 	2700 1150 2650 1150
 Connection ~ 2700 1050
 $Comp
-L L L3
+L device:L L3
 U 1 1 5A77899A
 P 3250 1050
 AR Path="/5A4C34AF/5A77899A" Ref="L3"  Part="1" 
@@ -190,7 +168,7 @@ F 4 "https://www.digikey.com/product-detail/en/taiyo-yuden/NS10145T330MNA/587-31
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_Schottky D1
+L device:D_Schottky D1
 U 1 1 5A7789F9
 P 3000 1300
 AR Path="/5A4C34AF/5A7789F9" Ref="D1"  Part="1" 
@@ -207,7 +185,7 @@ Wire Wire Line
 	3000 1050 3000 1150
 Connection ~ 3000 1050
 $Comp
-L GND #PWR064
+L power:GND #PWR064
 U 1 1 5A778B62
 P 3000 2300
 AR Path="/5A4C34AF/5A778B62" Ref="#PWR064"  Part="1" 
@@ -222,7 +200,7 @@ $EndComp
 Wire Wire Line
 	3000 2300 3000 1450
 $Comp
-L Rotated_Barrel J7
+L jacks:Rotated_Barrel J7
 U 1 1 5A779AD3
 P 3700 1500
 AR Path="/5A4C34AF/5A779AD3" Ref="J7"  Part="1" 
@@ -242,7 +220,7 @@ Wire Wire Line
 	2650 1400 3500 1400
 Connection ~ 3450 1400
 $Comp
-L R R14
+L device:R R14
 U 1 1 5A77A2E1
 P 3450 1900
 AR Path="/5A4C34AF/5A77A2E1" Ref="R14"  Part="1" 
@@ -266,7 +244,7 @@ Wire Wire Line
 	2650 1700 3450 1700
 Connection ~ 3450 1700
 $Comp
-L GND #PWR065
+L power:GND #PWR065
 U 1 1 5A77A9CB
 P 3450 2300
 AR Path="/5A4C34AF/5A77A9CB" Ref="#PWR065"  Part="1" 
@@ -281,7 +259,7 @@ $EndComp
 Wire Wire Line
 	3450 2300 3450 2050
 $Comp
-L C_Small C21
+L device:C_Small C21
 U 1 1 5A77D10E
 P 1100 1300
 AR Path="/5A4C34AF/5A77D10E" Ref="C21"  Part="1" 
@@ -298,7 +276,7 @@ Wire Wire Line
 	1100 1200 1100 1050
 Connection ~ 1100 1050
 $Comp
-L GND #PWR066
+L power:GND #PWR066
 U 1 1 5A77D43C
 P 1100 2300
 AR Path="/5A4C34AF/5A77D43C" Ref="#PWR066"  Part="1" 
@@ -317,7 +295,7 @@ CONTROL
 Wire Wire Line
 	1000 1700 1550 1700
 $Comp
-L LM3406HV U7
+L ledDriver:LM3406HV U7
 U 1 1 5A77E620
 P 2100 1500
 AR Path="/5A4C34AF/5A77E620" Ref="U7"  Part="1" 
@@ -335,7 +313,7 @@ Panel-Driver
 Wire Notes Line
 	4100 475  4100 2500
 $Comp
-L +48V #PWR067
+L power:+48V #PWR067
 U 1 1 5A84C99A
 P 1050 950
 AR Path="/5A4C34AF/5A84C99A" Ref="#PWR067"  Part="1" 
