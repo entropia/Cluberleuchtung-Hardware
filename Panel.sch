@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 3 7
 Title ""
 Date "2018-02-14"
 Rev "1.0"
@@ -112,12 +112,12 @@ $EndComp
 Wire Wire Line
 	1500 1250 1550 1250
 Wire Wire Line
-	1500 1050 1500 1250
+	1500 1050 1500 1150
 Wire Wire Line
 	1500 1150 1550 1150
 Connection ~ 1500 1150
 Wire Wire Line
-	1050 1050 1550 1050
+	1050 1050 1100 1050
 Connection ~ 1500 1050
 Wire Wire Line
 	1350 1150 1350 1050
@@ -145,9 +145,9 @@ Wire Wire Line
 Wire Wire Line
 	2550 850  2700 850 
 Wire Wire Line
-	2650 1050 3100 1050
+	2650 1050 2700 1050
 Wire Wire Line
-	2700 850  2700 1150
+	2700 850  2700 1050
 Wire Wire Line
 	1350 1500 1350 1450
 Wire Wire Line
@@ -217,7 +217,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 1050 3450 1400
 Wire Wire Line
-	2650 1400 3500 1400
+	2650 1400 3450 1400
 Connection ~ 3450 1400
 $Comp
 L device:R R14
@@ -234,7 +234,7 @@ F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 1500 3450 1750
+	3450 1500 3450 1600
 Wire Wire Line
 	3450 1500 3500 1500
 Wire Wire Line
@@ -329,4 +329,24 @@ Wire Wire Line
 	1050 950  1050 1050
 Wire Notes Line
 	4100 2500 475  2500
+Wire Wire Line
+	1500 1150 1500 1250
+Wire Wire Line
+	1500 1050 1550 1050
+Wire Wire Line
+	1350 1050 1500 1050
+Wire Wire Line
+	2700 1050 3000 1050
+Wire Wire Line
+	2700 1050 2700 1150
+Wire Wire Line
+	3000 1050 3100 1050
+Wire Wire Line
+	3450 1400 3500 1400
+Wire Wire Line
+	3450 1600 3450 1700
+Wire Wire Line
+	3450 1700 3450 1750
+Wire Wire Line
+	1100 1050 1350 1050
 $EndSCHEMATC

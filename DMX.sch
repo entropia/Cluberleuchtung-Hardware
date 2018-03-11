@@ -142,16 +142,16 @@ $EndComp
 Wire Wire Line
 	2600 1400 2600 1450
 Wire Wire Line
-	2200 1300 2200 1650
+	2200 1300 2200 1400
 Wire Wire Line
 	2200 1400 2300 1400
 Wire Wire Line
 	2600 1400 2500 1400
 Connection ~ 2200 1400
 Wire Wire Line
-	2200 2750 2200 2900
+	2200 2750 2200 2850
 Wire Wire Line
-	1050 2400 1050 2500
+	1050 2400 1050 2450
 Wire Wire Line
 	1050 2100 1050 2050
 Wire Wire Line
@@ -177,9 +177,9 @@ Connection ~ 2200 2850
 Wire Wire Line
 	2600 2050 3250 2050
 Wire Wire Line
-	2650 2350 2650 3150
+	2650 2350 2650 2400
 Wire Wire Line
-	3250 2050 3250 3150
+	3250 2050 3250 2400
 Wire Wire Line
 	2650 2350 2600 2350
 Connection ~ 2650 2400
@@ -202,4 +202,14 @@ Text HLabel 2650 3150 3    60   Input ~ 0
 DMX_A
 Text HLabel 3250 3150 3    60   Input ~ 0
 DMX_B
+Wire Wire Line
+	2200 1400 2200 1650
+Wire Wire Line
+	1050 2450 1050 2500
+Wire Wire Line
+	2200 2850 2200 2900
+Wire Wire Line
+	2650 2400 2650 3150
+Wire Wire Line
+	3250 2400 3250 3150
 $EndSCHEMATC

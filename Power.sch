@@ -802,6 +802,7 @@ F 0 "U?" H 4700 1750 60  0000 C CNN
 F 1 "AP65251" H 5050 2600 60  0000 C CNN
 F 2 "" H 4950 1950 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP65111A.pdf" H 4950 1950 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/AP65251WU-7/AP65251WU-7DICT-ND/7915274" H 4950 1950 50  0001 C CNN "Digikey"
 	1    4950 1950
 	1    0    0    -1  
 $EndComp

@@ -142,9 +142,9 @@ Wire Wire Line
 Wire Wire Line
 	1200 2500 1100 2500
 Wire Wire Line
-	2050 1350 2050 1800
+	2050 1350 2050 1500
 Wire Wire Line
-	1350 1350 1350 1800
+	1350 1350 1350 1500
 Wire Wire Line
 	2050 1500 2000 1500
 Wire Wire Line
@@ -152,7 +152,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 1600 1700 1500
 Wire Wire Line
-	1600 1500 1800 1500
+	1600 1500 1700 1500
 Connection ~ 1700 1500
 Connection ~ 1350 1500
 Connection ~ 2050 1500
@@ -167,9 +167,9 @@ Wire Wire Line
 Wire Wire Line
 	2200 2200 2850 2200
 Wire Wire Line
-	2250 2500 2250 3050
+	2250 2500 2250 2550
 Wire Wire Line
-	2850 2200 2850 3050
+	2850 2200 2850 2550
 Wire Wire Line
 	2250 2500 2200 2500
 Connection ~ 2250 2550
@@ -190,4 +190,14 @@ Text HLabel 2250 3050 3    60   Input ~ 0
 CAN_L
 Text HLabel 2850 3050 3    60   Input ~ 0
 CAN_H
+Wire Wire Line
+	1700 1500 1800 1500
+Wire Wire Line
+	1350 1500 1350 1800
+Wire Wire Line
+	2050 1500 2050 1800
+Wire Wire Line
+	2250 2550 2250 3050
+Wire Wire Line
+	2850 2550 2850 3050
 $EndSCHEMATC
