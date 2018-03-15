@@ -1,90 +1,15 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x05_Female
+# Connector_Generic:Conn_02x04_Odd_Even
 #
-DEF Connector:Conn_01x05_Female J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "Connector:Conn_01x05_Female" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-A 0 100 20 901 -901 1 1 6 N 0 120 0 80
-A 0 200 20 901 -901 1 1 6 N 0 220 0 180
-P 2 1 1 6 -50 -200 -20 -200 N
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-P 2 1 1 6 -50 100 -20 100 N
-P 2 1 1 6 -50 200 -20 200 N
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector:Conn_01x07_Female
-#
-DEF Connector:Conn_01x07_Female J 0 40 Y N 1 F N
-F0 "J" 0 400 50 H V C CNN
-F1 "Connector:Conn_01x07_Female" 0 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-A 0 -300 20 901 -901 1 1 6 N 0 -280 0 -320
-A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-A 0 100 20 901 -901 1 1 6 N 0 120 0 80
-A 0 200 20 901 -901 1 1 6 N 0 220 0 180
-A 0 300 20 901 -901 1 1 6 N 0 320 0 280
-P 2 1 1 6 -50 -300 -20 -300 N
-P 2 1 1 6 -50 -200 -20 -200 N
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-P 2 1 1 6 -50 100 -20 100 N
-P 2 1 1 6 -50 200 -20 200 N
-P 2 1 1 6 -50 300 -20 300 N
-X Pin_1 1 -200 300 150 R 50 50 1 1 P
-X Pin_2 2 -200 200 150 R 50 50 1 1 P
-X Pin_3 3 -200 100 150 R 50 50 1 1 P
-X Pin_4 4 -200 0 150 R 50 50 1 1 P
-X Pin_5 5 -200 -100 150 R 50 50 1 1 P
-X Pin_6 6 -200 -200 150 R 50 50 1 1 P
-X Pin_7 7 -200 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector:Conn_02x04_Odd_Even
-#
-DEF Connector:Conn_02x04_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_02x04_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "Connector:Conn_02x04_Odd_Even" 50 -300 50 H V C CNN
+F1 "Connector_Generic:Conn_02x04_Odd_Even" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -107,20 +32,15 @@ X Pin_8 8 300 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_02x05_Odd_Even
+# Connector_Generic:Conn_02x05_Odd_Even
 #
-DEF Connector:Conn_02x05_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_02x05_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Connector:Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
+F1 "Connector_Generic:Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -147,11 +67,75 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:RJ45
+# Connector_Specialized:Conn_01x05_Female
 #
-DEF Connector:RJ45 J 0 40 Y Y 1 F N
+DEF Connector_Specialized:Conn_01x05_Female J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Specialized:Conn_01x05_Female" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+A 0 200 20 901 -901 1 1 6 N 0 220 0 180
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+P 2 1 1 6 -50 200 -20 200 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Specialized:Conn_01x07_Female
+#
+DEF Connector_Specialized:Conn_01x07_Female J 0 40 Y N 1 F N
+F0 "J" 0 400 50 H V C CNN
+F1 "Connector_Specialized:Conn_01x07_Female" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -300 20 901 -901 1 1 6 N 0 -280 0 -320
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+A 0 200 20 901 -901 1 1 6 N 0 220 0 180
+A 0 300 20 901 -901 1 1 6 N 0 320 0 280
+P 2 1 1 6 -50 -300 -20 -300 N
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+P 2 1 1 6 -50 200 -20 200 N
+P 2 1 1 6 -50 300 -20 300 N
+X Pin_1 1 -200 300 150 R 50 50 1 1 P
+X Pin_2 2 -200 200 150 R 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 -200 0 150 R 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 -200 -200 150 R 50 50 1 1 P
+X Pin_7 7 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Specialized:RJ45
+#
+DEF Connector_Specialized:RJ45 J 0 40 Y Y 1 F N
 F0 "J" 200 500 50 H V C CNN
-F1 "Connector:RJ45" -150 500 50 H V C CNN
+F1 "Connector_Specialized:RJ45" -150 500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -177,16 +161,15 @@ X SHIELD 9 550 350 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Screw_Terminal_01x04
+# Connector_Specialized:Screw_Terminal_01x04
 #
-DEF Connector:Screw_Terminal_01x04 J 0 40 Y N 1 F N
+DEF Connector_Specialized:Screw_Terminal_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector:Screw_Terminal_01x04" 0 -300 50 H V C CNN
+F1 "Connector_Specialized:Screw_Terminal_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*Terminal*Block*:*
- TerminalBlock*
+ TerminalBlock*:*
 $ENDFPLIST
 DRAW
 C 0 -200 25 1 1 6 N
@@ -209,50 +192,15 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor:2N7002
+# Device:C
 #
-DEF Transistor:2N7002 Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor:2N7002" 200 0 50 H V L CNN
-F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-ALIAS 2N7002 MMBF170
-$FPLIST
- SOT?23*
-$ENDFPLIST
-DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 30 -70 100 -70 N
-P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
-P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
-P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
-P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
-P 4 0 1 0 40 0 80 15 80 -15 40 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
-P 4 0 1 0 110 20 115 15 145 15 150 10 N
-P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
-X G 1 -200 0 210 R 50 50 1 1 I
-X S 2 100 -200 100 U 50 50 1 1 P
-X D 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:C
-#
-DEF device:C C 0 10 N Y 1 F N
+DEF Device:C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "device:C" 25 -100 50 H V L CNN
+F1 "Device:C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- C_*
+ *:C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
@@ -262,15 +210,15 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:CP
+# Device:CP
 #
-DEF device:CP C 0 10 N Y 1 F N
+DEF Device:CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "device:CP" 25 -100 50 H V L CNN
+F1 "Device:CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP_*
+ *:CP_*
 $ENDFPLIST
 DRAW
 S -90 20 -90 40 0 1 0 N
@@ -285,15 +233,15 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:CP_Small
+# Device:CP_Small
 #
-DEF device:CP_Small C 0 10 N N 1 F N
+DEF Device:CP_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "device:CP_Small" 10 -80 50 H V L CNN
+F1 "Device:CP_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP_*
+ *:CP_*
 $ENDFPLIST
 DRAW
 S -60 -12 60 -27 0 1 0 F
@@ -305,15 +253,15 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:C_Small
+# Device:C_Small
 #
-DEF device:C_Small C 0 10 N N 1 F N
+DEF Device:C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "device:C_Small" 10 -80 50 H V L CNN
+F1 "Device:C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- C_*
+ *:C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
@@ -323,11 +271,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:Crystal_Small
+# Device:Crystal_Small
 #
-DEF device:Crystal_Small Y 0 40 N N 1 F N
+DEF Device:Crystal_Small Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
-F1 "device:Crystal_Small" 0 -100 50 H V C CNN
+F1 "Device:Crystal_Small" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -342,11 +290,11 @@ X 2 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:D_Schottky
+# Device:D_Schottky
 #
-DEF device:D_Schottky D 0 40 N N 1 F N
+DEF Device:D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "device:D_Schottky" 0 -100 50 H V C CNN
+F1 "Device:D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -354,7 +302,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
@@ -365,11 +313,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:Jumper_NC_Small
+# Device:Jumper_NC_Small
 #
-DEF device:Jumper_NC_Small JP 0 30 N N 1 F N
+DEF Device:Jumper_NC_Small JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "device:Jumper_NC_Small" 10 -60 50 H V C CNN
+F1 "Device:Jumper_NC_Small" 10 -60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -381,18 +329,18 @@ X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# device:L
+# Device:L
 #
-DEF device:L L 0 40 N N 1 F N
+DEF Device:L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "device:L" 75 0 50 V V C CNN
+F1 "Device:L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
@@ -404,16 +352,15 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R
+# Device:R
 #
-DEF device:R R 0 0 N Y 1 F N
+DEF Device:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
+F1 "Device:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
- R_*
+ *:R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -422,15 +369,15 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R_Small
+# Device:R_Small
 #
-DEF device:R_Small R 0 10 N N 1 F N
+DEF Device:R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "device:R_Small" 30 -40 50 H V L CNN
+F1 "Device:R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
+ *:R_*
 $ENDFPLIST
 DRAW
 S -30 70 30 -70 0 1 8 N
@@ -439,17 +386,17 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# interface:MAX485E
+# Interface_UART:MAX485E
 #
-DEF interface:MAX485E U 0 40 Y Y 1 F N
+DEF Interface_UART:MAX485E U 0 40 Y Y 1 F N
 F0 "U" -240 450 50 H V C CNN
-F1 "interface:MAX485E" 30 450 50 H V L CNN
+F1 "Interface_UART:MAX485E" 30 450 50 H V L CNN
 F2 "" 0 -700 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
-ALIAS MAX483E MAX485E MAX487E MAX1487E
+ALIAS MAX483E MAX485E MAX487E MAX1487E MAX3485 MAX3483 MAX3486
 $FPLIST
  DIP*W7.62mm*
- SOIC*3.9x4.9mm*Pitch1.27mm*
+ SOIC*3.9x4.9mm*P1.27mm*
 $ENDFPLIST
 DRAW
 C -12 -145 14 0 1 10 F
@@ -476,6 +423,93 @@ X GND 5 0 -600 100 U 50 50 1 1 W
 X A 6 400 -200 100 L 50 50 1 1 B
 X B 7 400 100 100 L 50 50 1 1 B
 X VCC 8 0 500 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear:AZ1117-3.3
+#
+DEF Regulator_Linear:AZ1117-3.3 U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "Regulator_Linear:AZ1117-3.3" 0 125 50 H V L CNN
+F2 "" 0 250 50 H I C CIN
+F3 "" 0 0 50 H I C CNN
+ALIAS AZ1117-1.5 AZ1117-1.8 AZ1117-2.5 AZ1117-2.85 AZ1117-3.3 AZ1117-5.0
+$FPLIST
+ SOT?223*
+ SOT?89*
+ TO?220*
+ TO?252*
+ TO?263*
+$ENDFPLIST
+DRAW
+S -200 75 200 -200 0 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X VO 2 300 0 100 L 50 50 1 1 w
+X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Sensor_Temperature:MCP9700T-ETT
+#
+DEF Sensor_Temperature:MCP9700T-ETT U 0 40 Y Y 1 F N
+F0 "U" -250 250 50 H V C CNN
+F1 "Sensor_Temperature:MCP9700T-ETT" 50 250 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 0 -400 50 H I C CNN
+F3 "" -150 250 50 H I C CNN
+ALIAS MCP9700T-ETT MCP9700AT-HTT MCP9700AT-ETT
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+A -175 125 25 1 1799 0 1 10 N -150 125 -200 125
+C -175 -100 50 0 1 10 F
+S -300 200 300 -200 0 1 10 f
+S -150 -75 -200 0 0 1 10 F
+P 2 0 1 10 -200 25 -175 25 N
+P 2 0 1 10 -200 50 -175 50 N
+P 2 0 1 10 -200 75 -175 75 N
+P 2 0 1 10 -200 100 -175 100 N
+P 2 0 1 10 -200 125 -200 0 N
+P 2 0 1 10 -200 125 -175 125 N
+P 2 0 1 10 -150 125 -150 0 N
+X Vdd 1 0 300 100 D 50 50 1 1 W
+X Vout 2 400 0 100 L 50 50 1 1 O
+X GND 3 0 -300 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Transistor_FET:2N7002
+#
+DEF Transistor_FET:2N7002 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Transistor_FET:2N7002" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS 2N7002 MMBF170
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -524,34 +558,6 @@ X CS 6 550 -200 100 L 50 50 1 1 I
 X GND 7 0 -600 100 U 50 50 1 1 I
 X DIM 8 -550 -200 100 R 50 50 1 1 I
 X COMP 9 -550 -450 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# mcp9700t:MCP9700T
-#
-DEF mcp9700t:MCP9700T U 0 40 Y Y 1 F N
-F0 "U" -250 250 50 H V C CNN
-F1 "mcp9700t:MCP9700T" 50 250 50 H V L CNN
-F2 "TO_SOT_Packages_SMD:SOT-23" 0 -400 50 H I C CNN
-F3 "" -150 250 50 H I C CNN
-$FPLIST
- SOT?23*
-$ENDFPLIST
-DRAW
-A -175 125 25 1 1799 0 1 10 N -150 125 -200 125
-C -175 -100 50 0 1 10 F
-S -300 200 300 -200 0 1 10 f
-S -150 -75 -200 0 0 1 10 F
-P 2 0 1 10 -200 25 -175 25 N
-P 2 0 1 10 -200 50 -175 50 N
-P 2 0 1 10 -200 75 -175 75 N
-P 2 0 1 10 -200 100 -175 100 N
-P 2 0 1 10 -200 125 -200 0 N
-P 2 0 1 10 -200 125 -175 125 N
-P 2 0 1 10 -150 125 -150 0 N
-X Vdd 1 0 300 100 D 50 50 1 1 W
-X Vout 2 400 0 100 L 50 50 1 1 O
-X GND 3 0 -300 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -639,29 +645,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# regul:AZ1117-3.3
-#
-DEF regul:AZ1117-3.3 U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "regul:AZ1117-3.3" 0 125 50 H V L CNN
-F2 "" 0 250 50 H I C CIN
-F3 "" 0 0 50 H I C CNN
-ALIAS AZ1117-1.5 AZ1117-1.8 AZ1117-2.5 AZ1117-2.85 AZ1117-3.3 AZ1117-5.0
-$FPLIST
- SOT?223*
- SOT?89*
- TO?220*
- TO?252*
- TO?263*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X GND 1 0 -300 100 U 50 50 1 1 W
-X VO 2 300 0 100 L 50 50 1 1 w
-X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #

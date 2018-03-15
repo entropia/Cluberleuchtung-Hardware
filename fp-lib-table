@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name RJ45)(type KiCad)(uri "$(KIPRJMOD)/libraries/footprints/RJ45")(options "")(descr ""))
-  (lib (name QFP)(type KiCad)(uri "$(KIPRJMOD)/libraries/footprints/QFP")(options "")(descr ""))
-)
