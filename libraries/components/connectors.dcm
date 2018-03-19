@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP RJ45-Quad
+D RJ45-Quad-Socket
+K RJ45, Quad, Sockt
+$ENDCMP
+#
 $CMP Rotated_Barrel
 D DC Barrel Jack
 K DC power barrel jack connector

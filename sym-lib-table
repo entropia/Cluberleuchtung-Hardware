@@ -4,5 +4,4 @@
   (lib (name switchingR)(type Legacy)(uri ${KIPRJMOD}/libraries/components/switchingR.lib)(options "")(descr ""))
   (lib (name ledDriver)(type Legacy)(uri ${KIPRJMOD}/libraries/components/ledDriver.lib)(options "")(descr ""))
   (lib (name connectors)(type Legacy)(uri ${KIPRJMOD}/libraries/components/connectors.lib)(options "")(descr ""))
-  (lib (name mcp9700t)(type Legacy)(uri ${KIPRJMOD}/libraries/components/mcp9700t.lib)(options "")(descr ""))
 )
