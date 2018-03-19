@@ -1477,6 +1477,7 @@ F 0 "J1" H 3150 6800 60  0000 C CNN
 F 1 "RJ45-Quad" H 2675 6800 60  0000 C CNN
 F 2 "" H 2775 6350 60  0001 C CNN
 F 3 "" H 2775 6350 60  0001 C CNN
+F 4 "https://www.aliexpress.com/item/40PCS-x-RJ45-5224-8C-1x4-With-Shield-PCB-Modular-jack-Network-socket-LAN-CONNECTOR-plug/32633704298.html" H 2825 6400 50  0001 C CNN "Buy"
 	1    2825 6400
 	1    0    0    -1  
 $EndComp
