@@ -530,11 +530,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# jacks:Rotated_Barrel
+# connectors:Rotated_Barrel
 #
-DEF jacks:Rotated_Barrel J 0 40 Y Y 1 F N
+DEF connectors:Rotated_Barrel J 0 40 Y Y 1 F N
 F0 "J" 0 210 50 H V C CNN
-F1 "jacks:Rotated_Barrel" 0 -175 50 H V C CNN
+F1 "connectors:Rotated_Barrel" 0 -175 50 H V C CNN
 F2 "" 50 -60 50 H I C CNN
 F3 "" 50 -60 50 H I C CNN
 DRAW

@@ -200,7 +200,7 @@ $EndComp
 Wire Wire Line
 	3000 2300 3000 1450
 $Comp
-L jacks:Rotated_Barrel J7
+L connectors:Rotated_Barrel J7
 U 1 1 5A779AD3
 P 3700 1500
 AR Path="/5A4C34AF/5A779AD3" Ref="J7"  Part="1" 
