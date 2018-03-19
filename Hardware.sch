@@ -172,7 +172,7 @@ F 0 "U1" H 2500 3350 50  0000 L BNN
 F 1 "STM32F042G6Ux" H 5900 3350 50  0000 R BNN
 F 2 "QFP:UFQFPN-28_4x4mm_Pitch0.5mm" H 5850 3250 50  0001 R TNN
 F 3 "" H 4200 2350 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F042G6U6/497-17345-ND/5268192" H 4200 2350 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F042G6U6/497-17345-ND/5268192" H 4200 2350 60  0001 C CNN "Buy"
 	1    4200 2350
 	1    0    0    -1  
 $EndComp
@@ -319,7 +319,7 @@ F 0 "Y1" H 1650 2100 50  0000 C CNN
 F 1 "8MHz" H 1650 1900 50  0000 C CNN
 F 2 "Crystals:Crystal_SMD_HC49-SD" H 1650 2000 50  0001 C CNN
 F 3 "" H 1650 2000 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/abracon-llc/ABLS-8.000MHZ-B4-T/535-10212-1-ND/2184247" H 1650 2000 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/abracon-llc/ABLS-8.000MHZ-B4-T/535-10212-1-ND/2184247" H 1650 2000 60  0001 C CNN "Buy"
 	1    1650 2000
 	0    1    1    0   
 $EndComp
@@ -331,7 +331,7 @@ F 0 "C2" H 1410 1920 50  0000 L CNN
 F 1 "15pF" H 1410 1770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1400 1850 50  0001 C CNN
 F 3 "" H 1400 1850 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21C150JBANNNC/1276-1163-1-ND/3889249" H 1400 1850 50  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21C150JBANNNC/1276-1163-1-ND/3889249" H 1400 1850 50  0001 C CNN "Buy"
 	1    1400 1850
 	0    1    1    0   
 $EndComp
@@ -343,7 +343,7 @@ F 0 "C3" H 1410 2220 50  0000 L CNN
 F 1 "15pF" H 1410 2070 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1400 2150 50  0001 C CNN
 F 3 "" H 1400 2150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21C150JBANNNC/1276-1163-1-ND/3889249" H 1400 2150 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21C150JBANNNC/1276-1163-1-ND/3889249" H 1400 2150 60  0001 C CNN "Buy"
 	1    1400 2150
 	0    1    1    0   
 $EndComp
@@ -1053,7 +1053,7 @@ F 0 "U3" H 7370 2746 50  0000 R CNN
 F 1 "MCP9700T-ETT" H 7370 2655 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 7700 2300 50  0001 C CNN
 F 3 "" H 7550 2950 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/microchip-technology/MCP9700T-E-TT/MCP9700T-E-TTCT-ND/1212545" H 7700 2700 50  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/microchip-technology/MCP9700T-E-TT/MCP9700T-E-TTCT-ND/1212545" H 7700 2700 50  0001 C CNN "Buy"
 	1    7700 2700
 	1    0    0    -1  
 $EndComp
@@ -1065,7 +1065,7 @@ F 0 "U2" H 7370 1396 50  0000 R CNN
 F 1 "MCP9700T-ETT" H 7370 1305 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 7700 950 50  0001 C CNN
 F 3 "" H 7550 1600 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/microchip-technology/MCP9700T-E-TT/MCP9700T-E-TTCT-ND/1212545" H 7700 1350 50  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/microchip-technology/MCP9700T-E-TT/MCP9700T-E-TTCT-ND/1212545" H 7700 1350 50  0001 C CNN "Buy"
 	1    7700 1350
 	1    0    0    -1  
 $EndComp

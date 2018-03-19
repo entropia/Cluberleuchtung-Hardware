@@ -78,7 +78,7 @@ F 0 "Q1" H 1775 2475 50  0000 L CNN
 F 1 "DMG2302UK" H 1775 2400 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1775 2325 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/DMG2302UK.pdf" H 1575 2400 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2302UK-7/DMG2302UK-7DICT-ND/6010163" H 1575 2400 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2302UK-7/DMG2302UK-7DICT-ND/6010163" H 1575 2400 60  0001 C CNN "Buy"
 	1    1575 2400
 	1    0    0    -1  
 $EndComp
@@ -90,7 +90,7 @@ F 0 "Q2" H 2175 1975 50  0000 L CNN
 F 1 "DMG2302UK" H 2175 1900 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 2175 1825 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/DMG2302UK.pdf" H 1975 1900 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2302UK-7/DMG2302UK-7DICT-ND/6010163" H 1975 1900 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2302UK-7/DMG2302UK-7DICT-ND/6010163" H 1975 1900 60  0001 C CNN "Buy"
 	1    1975 1900
 	1    0    0    -1  
 $EndComp
@@ -102,7 +102,7 @@ F 0 "Q3" H 2575 1475 50  0000 L CNN
 F 1 "DMG2302UK" H 2575 1400 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 2575 1325 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/DMG2302UK.pdf" H 2375 1400 50  0001 L CNN
-F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2302UK-7/DMG2302UK-7DICT-ND/6010163" H 2375 1400 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMG2302UK-7/DMG2302UK-7DICT-ND/6010163" H 2375 1400 60  0001 C CNN "Buy"
 	1    2375 1400
 	1    0    0    -1  
 $EndComp

@@ -24,7 +24,7 @@ F 0 "R13" V 1430 1300 50  0000 C CNN
 F 1 "162k" V 1350 1300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 1280 1300 50  0001 C CNN
 F 3 "" H 1350 1300 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07162KL/311-162KCRCT-ND/730577" V 1350 1300 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07162KL/311-162KCRCT-ND/730577" V 1350 1300 60  0001 C CNN "Buy"
 	1    1350 1300
 	1    0    0    -1  
 $EndComp
@@ -38,7 +38,7 @@ F 0 "C25" H 1510 2220 50  0000 L CNN
 F 1 "100nF" H 1510 2070 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1500 2150 50  0001 C CNN
 F 3 "" H 1500 2150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104KACNNNC/1276-1099-1-ND/3889185" H 1500 2150 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104KACNNNC/1276-1099-1-ND/3889185" H 1500 2150 60  0001 C CNN "Buy"
 	1    1500 2150
 	1    0    0    -1  
 $EndComp
@@ -65,7 +65,7 @@ F 0 "C27" H 2710 2220 50  0000 L CNN
 F 1 "100nF" H 2710 2070 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2700 2150 50  0001 C CNN
 F 3 "" H 2700 2150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104KACNNNC/1276-1099-1-ND/3889185" H 2700 2150 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104KACNNNC/1276-1099-1-ND/3889185" H 2700 2150 60  0001 C CNN "Buy"
 	1    2700 2150
 	1    0    0    -1  
 $EndComp
@@ -105,7 +105,7 @@ F 0 "C26" H 2460 920 50  0000 L CNN
 F 1 "22nF" H 2460 770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2450 850 50  0001 C CNN
 F 3 "" H 2450 850 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C223K5RACTU/399-1163-1-ND/411438" H 2450 850 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0805C223K5RACTU/399-1163-1-ND/411438" H 2450 850 60  0001 C CNN "Buy"
 	1    2450 850 
 	0    -1   -1   0   
 $EndComp
@@ -163,7 +163,7 @@ F 0 "L4" V 3200 1050 50  0000 C CNN
 F 1 "33μH" V 3325 1050 50  0000 C CNN
 F 2 "" H 3250 1050 50  0001 C CNN
 F 3 "" H 3250 1050 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/taiyo-yuden/NS10145T330MNA/587-3126-1-ND/2774716" V 3250 1050 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/taiyo-yuden/NS10145T330MNA/587-3126-1-ND/2774716" V 3250 1050 60  0001 C CNN "Buy"
 	1    3250 1050
 	0    -1   -1   0   
 $EndComp
@@ -177,7 +177,7 @@ F 0 "D2" H 3000 1400 50  0000 C CNN
 F 1 "D_Schot" H 2950 1200 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 3000 1300 50  0001 C CNN
 F 3 "" H 3000 1300 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG6020ER115/1727-5217-1-ND/2531816" H 3000 1300 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG6020ER115/1727-5217-1-ND/2531816" H 3000 1300 60  0001 C CNN "Buy"
 	1    3000 1300
 	0    1    1    0   
 $EndComp
@@ -229,7 +229,7 @@ F 0 "R14" V 3530 1900 50  0000 C CNN
 F 1 "0R16" V 3450 1900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3380 1900 50  0001 C CNN
 F 3 "" H 3450 1900 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6DSFR16V/P19313CT-ND/6004668" V 3450 1900 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6DSFR16V/P19313CT-ND/6004668" V 3450 1900 60  0001 C CNN "Buy"
 	1    3450 1900
 	1    0    0    -1  
 $EndComp
@@ -268,7 +268,7 @@ F 0 "C24" H 1110 1370 50  0000 L CNN
 F 1 "1μF" H 1110 1220 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1100 1300 50  0001 C CNN
 F 3 "" H 1100 1300 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL31B105KCHNNNE/1276-1838-1-ND/3889924" H 1100 1300 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL31B105KCHNNNE/1276-1838-1-ND/3889924" H 1100 1300 60  0001 C CNN "Buy"
 	1    1100 1300
 	1    0    0    -1  
 $EndComp
@@ -304,7 +304,7 @@ F 0 "U8" H 2500 950 60  0000 C CNN
 F 1 "LM3406HV" H 1900 2050 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 2100 2100 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm3406.pdf" H 2100 2100 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/texas-instruments/LM3406HVMHX-NOPB/LM3406HVMHX-NOPBCT-ND/3526958" H 2100 1500 60  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/LM3406HVMHX-NOPB/LM3406HVMHX-NOPBCT-ND/3526958" H 2100 1500 60  0001 C CNN "Buy"
 	1    2100 1500
 	1    0    0    -1  
 $EndComp
