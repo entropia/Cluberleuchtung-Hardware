@@ -36,7 +36,7 @@ F 0 "C30" V 2500 1350 50  0000 L CNN
 F 1 "100nF" V 2300 1300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2400 1400 50  0001 C CNN
 F 3 "" H 2400 1400 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104M5RACTU/399-7845-1-ND/3471568" V 2400 1400 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" V 2400 1400 50  0001 C CNN "Buy"
 	1    2400 1400
 	0    1    1    0   
 $EndComp

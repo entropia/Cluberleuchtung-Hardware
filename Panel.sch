@@ -38,7 +38,7 @@ F 0 "C21" H 1510 2220 50  0000 L CNN
 F 1 "100nF" H 1510 2070 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1500 2150 50  0001 C CNN
 F 3 "" H 1500 2150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104M5RACTU/399-7845-1-ND/3471568" H 1500 2150 60  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" H 1500 2150 60  0001 C CNN "Buy"
 	1    1500 2150
 	1    0    0    -1  
 $EndComp
@@ -65,7 +65,7 @@ F 0 "C23" H 2710 2220 50  0000 L CNN
 F 1 "100nF" H 2710 2070 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2700 2150 50  0001 C CNN
 F 3 "" H 2700 2150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104M5RACTU/399-7845-1-ND/3471568" H 2700 2150 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" H 2700 2150 50  0001 C CNN "Buy"
 	1    2700 2150
 	1    0    0    -1  
 $EndComp
