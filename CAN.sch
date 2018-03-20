@@ -44,6 +44,7 @@ F 0 "C29" V 2000 1450 50  0000 L CNN
 F 1 "100nF" V 1800 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1900 1500 50  0001 C CNN
 F 3 "" H 1900 1500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104M5RACTU/399-7845-1-ND/3471568" V 1900 1500 50  0001 C CNN "Buy"
 	1    1900 1500
 	0    1    1    0   
 $EndComp
@@ -55,6 +56,7 @@ F 0 "C28" V 1600 1450 50  0000 L CNN
 F 1 "100nF" V 1400 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1500 1500 50  0001 C CNN
 F 3 "" H 1500 1500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104M5RACTU/399-7845-1-ND/3471568" V 1500 1500 50  0001 C CNN "Buy"
 	1    1500 1500
 	0    1    1    0   
 $EndComp
@@ -66,6 +68,7 @@ F 0 "R18" V 850 2250 50  0000 C CNN
 F 1 "10k" V 950 2200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 880 2200 50  0001 C CNN
 F 3 "" H 950 2200 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0710KL/311-10.0KHRCT-ND/729827" V 950 2200 50  0001 C CNN "Buy"
 	1    950  2200
 	0    1    1    0   
 $EndComp
@@ -112,6 +115,7 @@ F 0 "U9" H 1350 1700 60  0000 C CNN
 F 1 "TLE7250VSJ" H 1650 2450 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 1700 1900 60  0001 C CNN
 F 3 "" H 1700 1900 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/infineon-technologies/TLE7250VSJXUMA1/TLE7250VSJXUMA1CT-ND/6560083" H 1700 2150 50  0001 C CNN "Buy"
 	1    1700 2150
 	1    0    0    -1  
 $EndComp
@@ -121,8 +125,9 @@ U 1 1 5A8476F4
 P 2700 2550
 F 0 "R19" V 2780 2550 50  0000 C CNN
 F 1 "120" V 2700 2550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2630 2550 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206" V 2630 2550 50  0001 C CNN
 F 3 "" H 2700 2550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07120RL/311-120FRCT-ND/731470" V 2700 2550 50  0001 C CNN "Buy"
 	1    2700 2550
 	0    1    1    0   
 $EndComp

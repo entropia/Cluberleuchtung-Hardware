@@ -18,8 +18,8 @@ $Comp
 L Regulator_Linear:AZ1117-3.3 U6
 U 1 1 5A4D442D
 P 9375 1675
-F 0 "U6" H 9225 1800 50  0000 C CNN
-F 1 "AZ1117-3.3" H 9375 1800 50  0000 L CNN
+F 0 "U6" H 9525 1425 50  0000 C CNN
+F 1 "AZ1117-3.3" H 9150 1800 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 9375 1925 50  0001 C CIN
 F 3 "" H 9375 1675 50  0001 C CNN
 	1    9375 1675
@@ -99,6 +99,7 @@ F 0 "R8" V 4855 1525 50  0000 C CNN
 F 1 "100k" V 4775 1525 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 4705 1525 50  0001 C CNN
 F 3 "" H 4775 1525 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-10100KL/YAG2294CT-ND/5252408" V 4775 1525 50  0001 C CNN "Buy"
 	1    4775 1525
 	1    0    0    -1  
 $EndComp
@@ -107,9 +108,10 @@ L Device:R R9
 U 1 1 5A4FF026
 P 6425 1825
 F 0 "R9" V 6505 1825 50  0000 C CNN
-F 1 "73k3" V 6425 1825 50  0000 C CNN
+F 1 "73k2" V 6425 1825 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6355 1825 50  0001 C CNN
 F 3 "" H 6425 1825 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0773K2L/311-73.2KHRCT-ND/730321" V 6425 1825 50  0001 C CNN "Buy"
 	1    6425 1825
 	1    0    0    -1  
 $EndComp
@@ -121,6 +123,7 @@ F 0 "R10" V 6505 2225 50  0000 C CNN
 F 1 "10k" V 6425 2225 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6355 2225 50  0001 C CNN
 F 3 "" H 6425 2225 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0710KL/311-10.0KHRCT-ND/729827" V 6425 2225 50  0001 C CNN "Buy"
 	1    6425 2225
 	1    0    0    -1  
 $EndComp
@@ -140,9 +143,10 @@ L Device:C C14
 U 1 1 5A4FF1F9
 P 5825 1525
 F 0 "C14" H 5875 1425 50  0000 L CNN
-F 1 "0.1μF" H 5875 1625 50  0000 L CNN
+F 1 "100nF" H 5875 1625 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5863 1375 50  0001 C CNN
 F 3 "" H 5825 1525 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104M5RACTU/399-7845-1-ND/3471568" H 5825 1525 50  0001 C CNN "Buy"
 	1    5825 1525
 	1    0    0    -1  
 $EndComp
@@ -189,6 +193,7 @@ F 0 "C15" H 6700 1925 50  0000 L CNN
 F 1 "30pF" H 6700 1725 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6713 1675 50  0001 C CNN
 F 3 "" H 6675 1825 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10C300JB8NNNC/1276-1021-1-ND/3889107" H 6675 1825 50  0001 C CNN "Buy"
 	1    6675 1825
 	1    0    0    -1  
 $EndComp
@@ -208,9 +213,10 @@ L Device:C C17
 U 1 1 5A5017F6
 P 7600 1825
 F 0 "C17" H 7625 1925 50  0000 L CNN
-F 1 "0.1μF" H 7625 1725 50  0000 L CNN
+F 1 "100nF" H 7625 1725 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7638 1675 50  0001 C CNN
 F 3 "" H 7600 1825 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104M5RACTU/399-7845-1-ND/3471568" H 7600 1825 50  0001 C CNN "Buy"
 	1    7600 1825
 	1    0    0    -1  
 $EndComp
@@ -242,7 +248,7 @@ $Comp
 L switchingR:MP4570GF U4
 U 1 1 5A513860
 P 1550 2500
-F 0 "U4" H 1950 3600 60  0000 C CNN
+F 0 "U4" H 1950 2100 60  0000 C CNN
 F 1 "MP4570GF" H 1550 2900 60  0000 C CNN
 F 2 "Housings_SSOP:HTSSOP-20-1EP_4.4x6.5mm_Pitch0.65mm_ThermalPad" H 400 2900 60  0001 C CNN
 F 3 "" H 400 2900 60  0001 C CNN
@@ -267,9 +273,10 @@ L Device:C_Small C9
 U 1 1 5A514008
 P 2150 1750
 F 0 "C9" H 2160 1820 50  0000 L CNN
-F 1 "0.1μF" H 2150 1675 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2150 1750 50  0001 C CNN
+F 1 "100nF" H 2150 1675 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2150 1750 50  0001 C CNN
 F 3 "" H 2150 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104KCFWPNE/1276-6733-1-ND/5961592" H 2150 1750 50  0001 C CNN "Buy"
 	1    2150 1750
 	1    0    0    -1  
 $EndComp
@@ -282,6 +289,7 @@ F 0 "R5" V 1030 2800 50  0000 C CNN
 F 1 "73k2" V 950 2800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 880 2800 50  0001 C CNN
 F 3 "" H 950 2800 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0773K2L/311-73.2KHRCT-ND/730321" V 950 2800 50  0001 C CNN "Buy"
 	1    950  2800
 	1    0    0    -1  
 $EndComp
@@ -312,9 +320,10 @@ L Device:C_Small C8
 U 1 1 5A514C7C
 P 1750 1100
 F 0 "C8" H 1760 1170 50  0000 L CNN
-F 1 "0.1μF" H 1760 1020 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1750 1100 50  0001 C CNN
+F 1 "100nF" H 1750 1025 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1750 1100 50  0001 C CNN
 F 3 "" H 1750 1100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104KCFWPNE/1276-6733-1-ND/5961592" H 1750 1100 50  0001 C CNN "Buy"
 	1    1750 1100
 	0    -1   -1   0   
 $EndComp
@@ -328,6 +337,7 @@ F 0 "R4" V 830 1600 50  0000 C CNN
 F 1 "1M" V 750 1600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 680 1600 50  0001 C CNN
 F 3 "" H 750 1600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-071ML/311-1.0MGRCT-ND/729625" V 750 1600 50  0001 C CNN "Buy"
 	1    750  1600
 	0    1    1    0   
 $EndComp
@@ -433,7 +443,7 @@ F 3 "" H 2550 1900 50  0001 C CNN
 	1    2550 1900
 	0    -1   -1   0   
 $EndComp
-Text Notes 2450 1750 0    60   ~ 0
+Text Notes 2350 1675 0    60   ~ 0
 Large enough?
 Wire Wire Line
 	1650 850  1550 850 
@@ -468,6 +478,7 @@ F 0 "R6" V 2880 2100 50  0000 C CNN
 F 1 "10k" V 2800 2100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2730 2100 50  0001 C CNN
 F 3 "" H 2800 2100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0710KL/311-10.0KHRCT-ND/729827" V 2800 2100 50  0001 C CNN "Buy"
 	1    2800 2100
 	1    0    0    -1  
 $EndComp
@@ -484,9 +495,10 @@ L Device:R R7
 U 1 1 5A79E7C1
 P 2800 2500
 F 0 "R7" V 2880 2500 50  0000 C CNN
-F 1 "213" V 2800 2500 50  0000 C CNN
+F 1 "910" V 2800 2500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 2730 2500 50  0001 C CNN
 F 3 "" H 2800 2500 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07909RL/311-909HRCT-ND/730372" V 2800 2500 50  0001 C CNN "Buy"
 	1    2800 2500
 	1    0    0    -1  
 $EndComp
@@ -509,9 +521,10 @@ L Device:C_Small C12
 U 1 1 5A79F1FF
 P 3850 2100
 F 0 "C12" H 3860 2170 50  0000 L CNN
-F 1 "0.1μF" H 3850 2025 50  0000 L CNN
+F 1 "100nF" H 3850 2025 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3850 2100 50  0001 C CNN
 F 3 "" H 3850 2100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104M5RACTU/399-7845-1-ND/3471568" H 3850 2100 50  0001 C CNN "Buy"
 	1    3850 2100
 	1    0    0    -1  
 $EndComp
@@ -652,6 +665,7 @@ F 0 "R3" V 780 2600 50  0000 C CNN
 F 1 "30k9" V 700 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 630 2600 50  0001 C CNN
 F 3 "" H 700 2600 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0730K9L/311-30.9KHRCT-ND/730091" V 700 2600 50  0001 C CNN "Buy"
 	1    700  2600
 	1    0    0    -1  
 $EndComp
@@ -663,6 +677,7 @@ F 0 "C6" H 710 2970 50  0000 L CNN
 F 1 "22nF" H 710 2820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 700 2900 50  0001 C CNN
 F 3 "" H 700 2900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C223K1RACTU/399-3476-1-ND/754769" H 700 2900 50  0001 C CNN "Buy"
 	1    700  2900
 	1    0    0    -1  
 $EndComp
@@ -685,7 +700,7 @@ F 3 "" H 700 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	700  3050 700  3000
-Text Notes 2200 2050 0    60   ~ 0
+Text Notes 2175 2050 0    60   ~ 0
 Ipk >= 3.3A
 Text Notes 2650 1850 0    60   ~ 0
 >=
@@ -807,17 +822,6 @@ F 3 "~" H 10325 1675 50  0001 C CNN
 	1    10125 1675
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5AB66B3A
-P 9900 1675
-F 0 "R?" V 9825 1675 50  0000 C CNN
-F 1 "0" V 9900 1675 50  0000 C CNN
-F 2 "" V 9830 1675 50  0001 C CNN
-F 3 "~" H 9900 1675 50  0001 C CNN
-	1    9900 1675
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9675 1675 9750 1675
 Wire Wire Line
@@ -833,6 +837,7 @@ F 0 "R?" V 6875 1675 50  0000 C CNN
 F 1 "0" V 6950 1675 50  0000 C CNN
 F 2 "" V 6880 1675 50  0001 C CNN
 F 3 "~" H 6950 1675 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1206ZG0R00/RMCF1206ZG0R00CT-ND/4425382" V 6950 1675 50  0001 C CNN "Buy"
 	1    6950 1675
 	0    1    1    0   
 $EndComp
@@ -859,12 +864,13 @@ Connection ~ 7250 1675
 $Comp
 L Device:R R?
 U 1 1 5AB8CA9D
-P 3025 1900
-F 0 "R?" V 2950 1900 50  0000 C CNN
-F 1 "0" V 3025 1900 50  0000 C CNN
-F 2 "" V 2955 1900 50  0001 C CNN
-F 3 "~" H 3025 1900 50  0001 C CNN
-	1    3025 1900
+P 3025 1800
+F 0 "R?" V 2950 1800 50  0000 C CNN
+F 1 "0" V 3025 1800 50  0000 C CNN
+F 2 "" V 2955 1800 50  0001 C CNN
+F 3 "~" H 3025 1800 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1206ZG0R00/RMCF1206ZG0R00CT-ND/4425382" V 3025 1800 50  0001 C CNN "Buy"
+	1    3025 1800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -887,4 +893,38 @@ Wire Wire Line
 	3250 1900 3350 1900
 Connection ~ 3250 1900
 Connection ~ 3350 1900
+$Comp
+L Device:R R?
+U 1 1 5AB21F05
+P 3025 1975
+F 0 "R?" V 2950 1975 50  0000 C CNN
+F 1 "0" V 3025 1975 50  0000 C CNN
+F 2 "" V 2955 1975 50  0001 C CNN
+F 3 "~" H 3025 1975 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1206ZG0R00/RMCF1206ZG0R00CT-ND/4425382" V 3025 1975 50  0001 C CNN "Buy"
+	1    3025 1975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2875 1975 2875 1900
+Wire Wire Line
+	2875 1900 2875 1800
+Connection ~ 2875 1900
+Wire Wire Line
+	3175 1800 3175 1900
+Connection ~ 3175 1900
+Wire Wire Line
+	3175 1900 3175 1975
+$Comp
+L Device:R R?
+U 1 1 5AB36C51
+P 9900 1675
+F 0 "R?" V 9825 1675 50  0000 C CNN
+F 1 "0" V 9900 1675 50  0000 C CNN
+F 2 "" V 9830 1675 50  0001 C CNN
+F 3 "~" H 9900 1675 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1206ZG0R00/RMCF1206ZG0R00CT-ND/4425382" V 9900 1675 50  0001 C CNN "Buy"
+	1    9900 1675
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

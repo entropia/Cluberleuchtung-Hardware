@@ -126,6 +126,7 @@ F 0 "R15" V 1255 1400 50  0000 C CNN
 F 1 "165" V 1175 1400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 1105 1400 50  0001 C CNN
 F 3 "" H 1175 1400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07165RL/311-165HRCT-ND/729923" V 1175 1400 50  0001 C CNN "Buy"
 	1    1175 1400
 	0    1    1    0   
 $EndComp
@@ -141,6 +142,7 @@ F 0 "R16" V 1255 1900 50  0000 C CNN
 F 1 "165" V 1175 1900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 1105 1900 50  0001 C CNN
 F 3 "" H 1175 1900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07165RL/311-165HRCT-ND/729923" V 1175 1900 50  0001 C CNN "Buy"
 	1    1175 1900
 	0    1    1    0   
 $EndComp
@@ -154,6 +156,7 @@ F 0 "R17" V 1255 2400 50  0000 C CNN
 F 1 "165" V 1175 2400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 1105 2400 50  0001 C CNN
 F 3 "" H 1175 2400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07165RL/311-165HRCT-ND/729923" V 1175 2400 50  0001 C CNN "Buy"
 	1    1175 2400
 	0    1    1    0   
 $EndComp

@@ -24,6 +24,7 @@ F 0 "U10" H 1960 2600 50  0000 C CNN
 F 1 "ST485CDR" H 2230 2600 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2200 1450 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4b/81/a8/cd/8a/72/47/82/CD00002183.pdf/files/CD00002183.pdf/jcr:content/translations/en.CD00002183.pdf" H 2200 2200 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/ST485CDR/497-3734-1-ND/686452" H 2200 2150 50  0001 C CNN "Buy"
 	1    2200 2150
 	1    0    0    -1  
 $EndComp
@@ -35,6 +36,7 @@ F 0 "C30" V 2500 1350 50  0000 L CNN
 F 1 "100nF" V 2300 1300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2400 1400 50  0001 C CNN
 F 3 "" H 2400 1400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104M5RACTU/399-7845-1-ND/3471568" V 2400 1400 50  0001 C CNN "Buy"
 	1    2400 1400
 	0    1    1    0   
 $EndComp
@@ -76,9 +78,10 @@ L Device:R R20
 U 1 1 5A84771C
 P 1050 2250
 F 0 "R20" V 1130 2250 50  0000 C CNN
-F 1 "6k6" V 1050 2250 50  0000 C CNN
+F 1 "6k8" V 1050 2250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 980 2250 50  0001 C CNN
 F 3 "" H 1050 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-076K8L/311-6.8KGRCT-ND/729760" V 1050 2250 50  0001 C CNN "Buy"
 	1    1050 2250
 	1    0    0    -1  
 $EndComp
@@ -90,6 +93,7 @@ F 0 "R21" V 1130 2650 50  0000 C CNN
 F 1 "10k" V 1050 2650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 980 2650 50  0001 C CNN
 F 3 "" H 1050 2650 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0710KL/311-10.0KHRCT-ND/729827" V 1050 2650 50  0001 C CNN "Buy"
 	1    1050 2650
 	1    0    0    -1  
 $EndComp
@@ -112,6 +116,7 @@ F 0 "R22" V 1830 2650 50  0000 C CNN
 F 1 "10k" V 1750 2650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 1680 2650 50  0001 C CNN
 F 3 "" H 1750 2650 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0710KL/311-10.0KHRCT-ND/729827" V 1750 2650 50  0001 C CNN "Buy"
 	1    1750 2650
 	1    0    0    -1  
 $EndComp
@@ -123,8 +128,9 @@ U 1 1 5A847744
 P 3100 2400
 F 0 "R23" V 3180 2400 50  0000 C CNN
 F 1 "120" V 3100 2400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3030 2400 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206" V 3030 2400 50  0001 C CNN
 F 3 "" H 3100 2400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07120RL/311-120FRCT-ND/731470" V 3100 2400 50  0001 C CNN "Buy"
 	1    3100 2400
 	0    1    1    0   
 $EndComp
