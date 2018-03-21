@@ -221,17 +221,6 @@ F 3 "" H 7425 2425 50  0001 C CNN
 $EndComp
 Text HLabel 7775 1675 2    60   Output ~ 0
 5V
-$Comp
-L switchingR:MP4570GF U4
-U 1 1 5A513860
-P 1550 2500
-F 0 "U4" H 1950 2100 60  0000 C CNN
-F 1 "MP4570GF" H 1550 2900 60  0000 C CNN
-F 2 "Housings_SSOP:HTSSOP-20-1EP_4.4x6.5mm_Pitch0.65mm_ThermalPad" H 400 2900 60  0001 C CNN
-F 3 "" H 400 2900 60  0001 C CNN
-	1    1550 2500
-	1    0    0    -1  
-$EndComp
 Text HLabel 1550 750  1    60   Output ~ 0
 48V
 $Comp
@@ -305,7 +294,6 @@ F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B10
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 1000 1700
-NoConn ~ 1300 1250
 $Comp
 L Device:R R4
 U 1 1 5A78D35F
@@ -919,4 +907,45 @@ Wire Wire Line
 Connection ~ 7700 1675
 Wire Wire Line
 	7700 1675 7775 1675
+$Comp
+L switchingR:MP4570GF U4
+U 1 1 5A513860
+P 1550 2500
+F 0 "U4" H 1950 2100 60  0000 C CNN
+F 1 "MP4570GF" H 1550 2900 60  0000 C CNN
+F 2 "Housings_SSOP:HTSSOP-20-1EP_4.4x6.5mm_Pitch0.65mm_ThermalPad" H 400 2900 60  0001 C CNN
+F 3 "" H 400 2900 60  0001 C CNN
+	1    1550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5AC62BA2
+P 1100 1100
+F 0 "C?" H 1225 1100 50  0000 C CNN
+F 1 "1μF" H 950 1100 50  0000 C CNN
+F 2 "" H 1100 1100 50  0001 C CNN
+F 3 "~" H 1100 1100 50  0001 C CNN
+	1    1100 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5AC694B3
+P 900 1150
+F 0 "#PWR?" H 900 900 50  0001 C CNN
+F 1 "GND" H 900 1000 50  0000 C CNN
+F 2 "" H 900 1150 50  0001 C CNN
+F 3 "" H 900 1150 50  0001 C CNN
+	1    900  1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1150 900  1100
+Wire Wire Line
+	900  1100 1000 1100
+Wire Wire Line
+	1200 1100 1300 1100
+Wire Wire Line
+	1300 1100 1300 1250
 $EndSCHEMATC
