@@ -548,8 +548,6 @@ F 4 "https://www.digikey.com/product-detail/en/rubycon/25TXV47M6.3X8/1189-2118-1
 	1    3475 2100
 	1    0    0    -1  
 $EndComp
-Text Notes 3275 2350 0    60   ~ 0
-Low ESR!
 $Comp
 L Device:R R3
 U 1 1 5A7A79C9
