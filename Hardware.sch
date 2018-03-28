@@ -239,35 +239,35 @@ $EndComp
 $Comp
 L Device:CP_Small C4
 U 1 1 5A469943
-P 4400 750
-F 0 "C4" V 4300 700 50  0000 L CNN
-F 1 "4.7μF" V 4500 650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4400 750 50  0001 C CNN
-F 3 "" H 4400 750 50  0001 C CNN
-	1    4400 750 
-	0    -1   -1   0   
+P 4000 775
+F 0 "C4" V 4100 725 50  0000 L CNN
+F 1 "4.7μF" V 3900 675 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4000 775 50  0001 C CNN
+F 3 "" H 4000 775 50  0001 C CNN
+	1    4000 775 
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR016
 U 1 1 5A4696DF
-P 4600 1100
-F 0 "#PWR016" H 4600 850 50  0001 C CNN
-F 1 "GND" H 4600 950 50  0000 C CNN
-F 2 "" H 4600 1100 50  0001 C CNN
-F 3 "" H 4600 1100 50  0001 C CNN
-	1    4600 1100
+P 3800 1100
+F 0 "#PWR016" H 3800 850 50  0001 C CNN
+F 1 "GND" H 3800 950 50  0000 C CNN
+F 2 "" H 3800 1100 50  0001 C CNN
+F 3 "" H 3800 1100 50  0001 C CNN
+	1    3800 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C5
 U 1 1 5A469567
-P 4400 1050
-F 0 "C5" V 4500 1000 50  0000 L CNN
-F 1 "100nF" V 4300 950 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4400 1050 50  0001 C CNN
-F 3 "" H 4400 1050 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" V 4400 1050 50  0001 C CNN "Buy"
-	1    4400 1050
+P 4000 1050
+F 0 "C5" V 4100 1000 50  0000 L CNN
+F 1 "100nF" V 3900 950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4000 1050 50  0001 C CNN
+F 3 "" H 4000 1050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" V 4000 1050 50  0001 C CNN "Buy"
+	1    4000 1050
 	0    1    1    0   
 $EndComp
 Text GLabel 800  1750 0    60   Input ~ 0
@@ -652,10 +652,6 @@ Wire Wire Line
 	4100 1250 4200 1250
 Wire Wire Line
 	4100 1250 4100 1300
-Wire Wire Line
-	4200 700  4200 750 
-Wire Wire Line
-	4300 1250 4300 1300
 Connection ~ 4200 1250
 Wire Wire Line
 	6050 2550 6000 2550
@@ -677,19 +673,7 @@ Wire Wire Line
 	6000 2250 6050 2250
 Wire Wire Line
 	800  1750 850  1750
-Wire Wire Line
-	4300 1050 4200 1050
 Connection ~ 4200 1050
-Wire Wire Line
-	4300 750  4200 750 
-Connection ~ 4200 750 
-Wire Wire Line
-	4500 750  4600 750 
-Wire Wire Line
-	4600 750  4600 1050
-Wire Wire Line
-	4500 1050 4600 1050
-Connection ~ 4600 1050
 Wire Wire Line
 	850  1800 850  1750
 Connection ~ 850  1750
@@ -1011,15 +995,9 @@ CAN_H
 Text GLabel 2100 7425 3    60   Input ~ 0
 CAN_L
 Wire Wire Line
-	4200 1250 4300 1250
-Wire Wire Line
 	4200 1250 4200 1300
 Wire Wire Line
 	4200 1050 4200 1250
-Wire Wire Line
-	4200 750  4200 1050
-Wire Wire Line
-	4600 1050 4600 1100
 Wire Wire Line
 	850  1750 2400 1750
 Wire Wire Line
@@ -1584,12 +1562,62 @@ Wire Wire Line
 	6825 6200 6825 6000
 Text Notes 5650 6550 0    60   ~ 0
 über 0 und c auf GND
-Text Notes 3300 1025 0    60   ~ 0
-100nF für VDDA
 Text Notes 400  6025 0    60   ~ 0
 specs auf shield überprüfen
 Text Notes 725  4500 0    60   ~ 0
 Verpoldiode
+Wire Wire Line
+	4100 1050 4200 1050
+Wire Wire Line
+	4200 700  4200 775 
+Wire Wire Line
+	4100 775  4200 775 
+Connection ~ 4200 775 
+Wire Wire Line
+	4200 775  4200 1050
+Wire Wire Line
+	3900 775  3800 775 
+Wire Wire Line
+	3800 775  3800 1050
+Wire Wire Line
+	3900 1050 3800 1050
+Connection ~ 3800 1050
+Wire Wire Line
+	3800 1050 3800 1100
+Wire Wire Line
+	4500 1050 4500 1300
+Wire Wire Line
+	4200 1050 4500 1050
+$Comp
+L Device:C_Small C?
+U 1 1 5AC3DED4
+P 4700 1050
+F 0 "C?" V 4800 1000 50  0000 L CNN
+F 1 "100nF" V 4600 950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4700 1050 50  0001 C CNN
+F 3 "" H 4700 1050 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" V 4700 1050 50  0001 C CNN "Buy"
+	1    4700 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 1050 4900 1050
+Wire Wire Line
+	4600 1050 4500 1050
+Connection ~ 4500 1050
+$Comp
+L power:GND #PWR?
+U 1 1 5AC4C292
+P 4900 1100
+F 0 "#PWR?" H 4900 850 50  0001 C CNN
+F 1 "GND" H 4900 950 50  0000 C CNN
+F 2 "" H 4900 1100 50  0001 C CNN
+F 3 "" H 4900 1100 50  0001 C CNN
+	1    4900 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1100 4900 1050
 Wire Bus Line
 	1700 7125 5400 7125
 $EndSCHEMATC
