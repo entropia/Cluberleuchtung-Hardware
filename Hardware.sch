@@ -1582,6 +1582,14 @@ Wire Wire Line
 	7650 6200 6825 6200
 Wire Wire Line
 	6825 6200 6825 6000
+Text Notes 5650 6550 0    60   ~ 0
+über 0 und c auf GND
+Text Notes 3300 1025 0    60   ~ 0
+100nF für VDDA
+Text Notes 400  6025 0    60   ~ 0
+specs auf shield überprüfen
+Text Notes 725  4500 0    60   ~ 0
+Verpoldiode
 Wire Bus Line
 	1700 7125 5400 7125
 $EndSCHEMATC
