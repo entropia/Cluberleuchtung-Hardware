@@ -673,7 +673,7 @@ U 1 1 5A8E2DE4
 P 5275 1925
 F 0 "U5" H 5025 1725 60  0000 C CNN
 F 1 "AP65251" H 5375 2575 60  0000 C CNN
-F 2 "" H 5275 1925 60  0001 C CNN
+F 2 "erleuchtung-footprints:TSOT-26" H 5275 1925 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP65111A.pdf" H 5275 1925 60  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/AP65251WU-7/AP65251WU-7DICT-ND/7915274" H 5275 1925 50  0001 C CNN "Buy"
 	1    5275 1925
