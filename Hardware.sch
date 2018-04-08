@@ -1580,6 +1580,33 @@ Text Notes 4600 5700 0    60   ~ 12
 IN
 Text Notes 2600 5700 0    60   ~ 12
 OUT
+$Comp
+L Device:R R?
+U 1 1 5AD83835
+P 850 1550
+F 0 "R?" V 930 1550 50  0000 C CNN
+F 1 "10k" V 850 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 780 1550 50  0001 C CNN
+F 3 "" H 850 1550 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0710KL/311-10.0KHRCT-ND/729827" V 850 1550 50  0001 C CNN "Buy"
+	1    850  1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5AD83C06
+P 850 1350
+F 0 "#PWR?" H 850 1200 50  0001 C CNN
+F 1 "+3.3V" H 850 1490 50  0000 C CNN
+F 2 "" H 850 1350 50  0001 C CNN
+F 3 "" H 850 1350 50  0001 C CNN
+	1    850  1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  1350 850  1400
+Wire Wire Line
+	850  1700 850  1750
 Wire Bus Line
 	1700 6925 5400 6925
 $EndSCHEMATC
