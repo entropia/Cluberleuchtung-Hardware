@@ -5,6 +5,11 @@ D RJ45-Quad-Socket
 K RJ45, Quad, Sockt
 $ENDCMP
 #
+$CMP RJ45-Dual
+D RJ45-Dual-Socket
+K RJ45, Dual, Sockt
+$ENDCMP
+#
 $CMP Rotated_Barrel
 D DC Barrel Jack
 K DC power barrel jack connector
