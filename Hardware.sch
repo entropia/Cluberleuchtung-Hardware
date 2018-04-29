@@ -922,7 +922,7 @@ F 3 "" H 3675 4300 50  0001 C CNN
 	1    3675 4300
 	1    0    0    -1  
 $EndComp
-Text Notes 775  3800 0    120  ~ 0
+Text Notes 475  3800 0    120  ~ 0
 Connectors
 Wire Wire Line
 	6000 2050 6150 2050
@@ -1609,12 +1609,12 @@ $Comp
 L Device:D_Small D?
 U 1 1 5AE82317
 P 1375 4100
-F 0 "D?" H 1375 4200 50  0000 C CNN
-F 1 "D_Small" H 1375 4000 50  0000 C CNN
+F 0 "D?" H 1375 4000 50  0000 C CNN
+F 1 "D_Small" H 1375 4200 50  0000 C CNN
 F 2 "" V 1375 4100 50  0001 C CNN
 F 3 "~" V 1375 4100 50  0001 C CNN
 	1    1375 4100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1475 4100 1475 4050
