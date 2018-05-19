@@ -805,7 +805,7 @@ F 0 "U4" H 2025 2100 60  0000 C CNN
 F 1 "MP4570GF" H 1625 2900 60  0000 C CNN
 F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_ThermalVias" H 475 2900 60  0001 C CNN
 F 3 "" H 475 2900 60  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Monolithic-Power-Systems-MPS/MP4570GF-Z?qs=sGAEpiMZZMtitjHzVIkrqU99irDpZcy8vQddg2chZTNyXKTpjLDESQ%3d%3d" H 1625 2500 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/monolithic-power-systems-inc/MP4570GF/1589-1406-ND/5299163" H 1625 2500 50  0001 C CNN "Buy"
 	1    1625 2500
 	1    0    0    -1  
 $EndComp
