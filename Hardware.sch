@@ -232,7 +232,7 @@ F 0 "C1" H 860 1970 50  0000 L CNN
 F 1 "100nF" H 860 1820 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 850 1900 50  0001 C CNN
 F 3 "" H 850 1900 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" H 850 1900 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 850 1900 50  0001 C CNN "Buy"
 	1    850  1900
 	1    0    0    -1  
 $EndComp
@@ -266,7 +266,7 @@ F 0 "C5" V 4100 1000 50  0000 L CNN
 F 1 "100nF" V 3900 950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4000 1050 50  0001 C CNN
 F 3 "" H 4000 1050 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" V 4000 1050 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" V 4000 1050 50  0001 C CNN "Buy"
 	1    4000 1050
 	0    1    1    0   
 $EndComp
@@ -1418,7 +1418,7 @@ F 0 "C6" H 7100 5975 50  0000 L CNN
 F 1 "100nF" H 7100 5825 50  0000 L CNN
 F 2 "" H 7075 5900 50  0001 C CNN
 F 3 "~" H 7075 5900 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" H 7075 5900 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 7075 5900 50  0001 C CNN "Buy"
 	1    7075 5900
 	1    0    0    -1  
 $EndComp
@@ -1461,7 +1461,7 @@ F 0 "C35" V 4800 1000 50  0000 L CNN
 F 1 "100nF" V 4600 950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4700 1050 50  0001 C CNN
 F 3 "" H 4700 1050 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" V 4700 1050 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" V 4700 1050 50  0001 C CNN "Buy"
 	1    4700 1050
 	0    1    1    0   
 $EndComp

@@ -38,7 +38,7 @@ F 0 "C29" H 1785 2220 50  0000 L CNN
 F 1 "100nF" H 1785 2070 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1775 2150 50  0001 C CNN
 F 3 "" H 1775 2150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" H 1775 2150 60  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 1775 2150 60  0001 C CNN "Buy"
 	1    1775 2150
 	1    0    0    -1  
 $EndComp
@@ -65,7 +65,7 @@ F 0 "C31" H 2985 2220 50  0000 L CNN
 F 1 "100nF" H 2985 2070 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2975 2150 50  0001 C CNN
 F 3 "" H 2975 2150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" H 2975 2150 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 2975 2150 50  0001 C CNN "Buy"
 	1    2975 2150
 	1    0    0    -1  
 $EndComp

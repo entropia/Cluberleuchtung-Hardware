@@ -115,7 +115,7 @@ F 0 "C16" H 6275 1425 50  0000 L CNN
 F 1 "100nF" H 6275 1625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6263 1375 50  0001 C CNN
 F 3 "" H 6225 1525 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" H 6225 1525 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 6225 1525 50  0001 C CNN "Buy"
 	1    6225 1525
 	1    0    0    -1  
 $EndComp
@@ -450,7 +450,7 @@ F 0 "C13" H 4085 2170 50  0000 L CNN
 F 1 "100nF" H 4075 2025 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4075 2100 50  0001 C CNN
 F 3 "" H 4075 2100 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" H 4075 2100 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 4075 2100 50  0001 C CNN "Buy"
 	1    4075 2100
 	1    0    0    -1  
 $EndComp
@@ -735,7 +735,7 @@ F 0 "C15" H 4910 1620 50  0000 L CNN
 F 1 "100nF" H 4900 1475 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4900 1550 50  0001 C CNN
 F 3 "" H 4900 1550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" H 4900 1550 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 4900 1550 50  0001 C CNN "Buy"
 	1    4900 1550
 	1    0    0    -1  
 $EndComp
@@ -784,7 +784,7 @@ F 0 "C19" H 8025 1925 50  0000 L CNN
 F 1 "100nF" H 8025 1725 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8038 1675 50  0001 C CNN
 F 3 "" H 8000 1825 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/kemet/C0603C104K3RACTU/399-1281-1-ND/416057" H 8000 1825 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 8000 1825 50  0001 C CNN "Buy"
 	1    8000 1825
 	1    0    0    -1  
 $EndComp
