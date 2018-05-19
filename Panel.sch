@@ -36,9 +36,9 @@ AR Path="/5A4C34AF/5A77745B" Ref="C24"  Part="1"
 AR Path="/5A4C3F5F/5A77745B" Ref="C29"  Part="1" 
 F 0 "C29" H 1785 2220 50  0000 L CNN
 F 1 "100nF" H 1785 2070 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1775 2150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1775 2150 50  0001 C CNN
 F 3 "" H 1775 2150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 1775 2150 60  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37L/490-4789-1-ND/1641708" H 1775 2150 60  0001 C CNN "Buy"
 	1    1775 2150
 	1    0    0    -1  
 $EndComp
@@ -63,9 +63,9 @@ AR Path="/5A4C34AF/5A777CD4" Ref="C26"  Part="1"
 AR Path="/5A4C3F5F/5A777CD4" Ref="C31"  Part="1" 
 F 0 "C31" H 2985 2220 50  0000 L CNN
 F 1 "100nF" H 2985 2070 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2975 2150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2975 2150 50  0001 C CNN
 F 3 "" H 2975 2150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 2975 2150 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37L/490-4789-1-ND/1641708" H 2975 2150 50  0001 C CNN "Buy"
 	1    2975 2150
 	1    0    0    -1  
 $EndComp

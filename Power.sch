@@ -113,9 +113,9 @@ U 1 1 5A4FF1F9
 P 6225 1525
 F 0 "C16" H 6275 1425 50  0000 L CNN
 F 1 "100nF" H 6275 1625 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6263 1375 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6263 1375 50  0001 C CNN
 F 3 "" H 6225 1525 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 6225 1525 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37L/490-4789-1-ND/1641708" H 6225 1525 50  0001 C CNN "Buy"
 	1    6225 1525
 	1    0    0    -1  
 $EndComp
@@ -209,7 +209,7 @@ U 1 1 5A514008
 P 2225 1750
 F 0 "C11" H 2235 1820 50  0000 L CNN
 F 1 "100nF" H 2225 1675 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2225 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2225 1750 50  0001 C CNN
 F 3 "" H 2225 1750 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104KCFWPNE/1276-6733-1-ND/5961592" H 2225 1750 50  0001 C CNN "Buy"
 	1    2225 1750
@@ -257,7 +257,7 @@ U 1 1 5A514C7C
 P 1825 1100
 F 0 "C10" H 1835 1170 50  0000 L CNN
 F 1 "100nF" H 1825 1025 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1825 1100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1825 1100 50  0001 C CNN
 F 3 "" H 1825 1100 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104KCFWPNE/1276-6733-1-ND/5961592" H 1825 1100 50  0001 C CNN "Buy"
 	1    1825 1100
@@ -448,9 +448,9 @@ U 1 1 5A79F1FF
 P 4075 2100
 F 0 "C13" H 4085 2170 50  0000 L CNN
 F 1 "100nF" H 4075 2025 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4075 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4075 2100 50  0001 C CNN
 F 3 "" H 4075 2100 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 4075 2100 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37L/490-4789-1-ND/1641708" H 4075 2100 50  0001 C CNN "Buy"
 	1    4075 2100
 	1    0    0    -1  
 $EndComp
@@ -733,9 +733,9 @@ U 1 1 5AC262FD
 P 4900 1550
 F 0 "C15" H 4910 1620 50  0000 L CNN
 F 1 "100nF" H 4900 1475 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4900 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4900 1550 50  0001 C CNN
 F 3 "" H 4900 1550 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 4900 1550 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37L/490-4789-1-ND/1641708" H 4900 1550 50  0001 C CNN "Buy"
 	1    4900 1550
 	1    0    0    -1  
 $EndComp
@@ -782,9 +782,9 @@ U 1 1 5A5017F6
 P 8000 1825
 F 0 "C19" H 8025 1925 50  0000 L CNN
 F 1 "100nF" H 8025 1725 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8038 1675 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8038 1675 50  0001 C CNN
 F 3 "" H 8000 1825 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 8000 1825 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37L/490-4789-1-ND/1641708" H 8000 1825 50  0001 C CNN "Buy"
 	1    8000 1825
 	1    0    0    -1  
 $EndComp
@@ -897,10 +897,10 @@ Connection ~ 10650 1675
 Wire Wire Line
 	10650 1675 10775 1675
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP5
 U 1 1 5AD27878
 P 10075 1675
-F 0 "JP?" H 10075 1575 50  0000 C CNN
+F 0 "JP5" H 10075 1575 50  0000 C CNN
 F 1 "SolderBridged" H 10075 1775 50  0000 C CNN
 F 2 "" H 10075 1675 50  0001 C CNN
 F 3 "~" H 10075 1675 50  0001 C CNN
@@ -910,10 +910,10 @@ $EndComp
 Wire Wire Line
 	10225 1675 10400 1675
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP4
 U 1 1 5AD35C2B
 P 7425 1675
-F 0 "JP?" H 7425 1575 50  0000 C CNN
+F 0 "JP4" H 7425 1575 50  0000 C CNN
 F 1 "SolderBridged" H 7425 1775 50  0000 C CNN
 F 2 "" H 7425 1675 50  0001 C CNN
 F 3 "~" H 7425 1675 50  0001 C CNN
@@ -923,10 +923,10 @@ $EndComp
 Wire Wire Line
 	7575 1675 7750 1675
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP3
 U 1 1 5AD3B36A
 P 3125 1900
-F 0 "JP?" H 3125 1800 50  0000 C CNN
+F 0 "JP3" H 3125 1800 50  0000 C CNN
 F 1 "SolderBridged" H 3125 2000 50  0000 C CNN
 F 2 "" H 3125 1900 50  0001 C CNN
 F 3 "~" H 3125 1900 50  0001 C CNN

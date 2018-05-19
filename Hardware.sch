@@ -230,9 +230,9 @@ U 1 1 5A46A31B
 P 850 1900
 F 0 "C1" H 860 1970 50  0000 L CNN
 F 1 "100nF" H 860 1820 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 850 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 850 1900 50  0001 C CNN
 F 3 "" H 850 1900 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 850 1900 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37L/490-4789-1-ND/1641708" H 850 1900 50  0001 C CNN "Buy"
 	1    850  1900
 	1    0    0    -1  
 $EndComp
@@ -264,9 +264,9 @@ U 1 1 5A469567
 P 4000 1050
 F 0 "C5" V 4100 1000 50  0000 L CNN
 F 1 "100nF" V 3900 950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4000 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4000 1050 50  0001 C CNN
 F 3 "" H 4000 1050 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" V 4000 1050 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37L/490-4789-1-ND/1641708" V 4000 1050 50  0001 C CNN "Buy"
 	1    4000 1050
 	0    1    1    0   
 $EndComp
@@ -1416,9 +1416,9 @@ U 1 1 5AB4EAB2
 P 7075 5900
 F 0 "C6" H 7100 5975 50  0000 L CNN
 F 1 "100nF" H 7100 5825 50  0000 L CNN
-F 2 "" H 7075 5900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7075 5900 50  0001 C CNN
 F 3 "~" H 7075 5900 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" H 7075 5900 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37L/490-4789-1-ND/1641708" H 7075 5900 50  0001 C CNN "Buy"
 	1    7075 5900
 	1    0    0    -1  
 $EndComp
@@ -1459,9 +1459,9 @@ U 1 1 5AC3DED4
 P 4700 1050
 F 0 "C35" V 4800 1000 50  0000 L CNN
 F 1 "100nF" V 4600 950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4700 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4700 1050 50  0001 C CNN
 F 3 "" H 4700 1050 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM188R71C104KA37D/490-4774-1-ND/1641693" V 4700 1050 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37L/490-4789-1-ND/1641708" V 4700 1050 50  0001 C CNN "Buy"
 	1    4700 1050
 	0    1    1    0   
 $EndComp
@@ -1505,10 +1505,10 @@ Wire Wire Line
 Wire Wire Line
 	2325 7500 2325 7025
 $Comp
-L connectors:RJ45-Dual J?
+L connectors:RJ45-Dual J11
 U 1 1 5ACE731B
 P 4325 6200
-F 0 "J?" H 4650 6600 60  0000 C CNN
+F 0 "J11" H 4650 6600 60  0000 C CNN
 F 1 "RJ45-Dual" H 4175 6600 60  0000 C CNN
 F 2 "" H 4275 6150 60  0001 C CNN
 F 3 "" H 4275 6150 60  0001 C CNN
@@ -1516,10 +1516,10 @@ F 3 "" H 4275 6150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:RJ45-Dual J?
+L connectors:RJ45-Dual J11
 U 2 1 5ACE7681
 P 5325 6200
-F 0 "J?" H 5650 6600 60  0000 C CNN
+F 0 "J11" H 5650 6600 60  0000 C CNN
 F 1 "RJ45-Dual" H 5175 6600 60  0000 C CNN
 F 2 "" H 5275 6150 60  0001 C CNN
 F 3 "" H 5275 6150 60  0001 C CNN
@@ -1527,10 +1527,10 @@ F 3 "" H 5275 6150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:RJ45-Dual J?
+L connectors:RJ45-Dual J2
 U 1 1 5AD02856
 P 1975 6200
-F 0 "J?" H 2300 6600 60  0000 C CNN
+F 0 "J2" H 2300 6600 60  0000 C CNN
 F 1 "RJ45-Dual" H 1825 6600 60  0000 C CNN
 F 2 "" H 1925 6150 60  0001 C CNN
 F 3 "" H 1925 6150 60  0001 C CNN
@@ -1538,21 +1538,21 @@ F 3 "" H 1925 6150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L connectors:RJ45-Dual J?
-U 1 1 5AD0285C
+L connectors:RJ45-Dual J2
+U 2 1 5AD0285C
 P 2975 6200
-F 0 "J?" H 3300 6600 60  0000 C CNN
+F 0 "J2" H 3300 6600 60  0000 C CNN
 F 1 "RJ45-Dual" H 2825 6600 60  0000 C CNN
 F 2 "" H 2925 6150 60  0001 C CNN
 F 3 "" H 2925 6150 60  0001 C CNN
-	1    2975 6200
+	2    2975 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 5AD10161
 P 1475 6000
-F 0 "#PWR?" H 1475 5750 50  0001 C CNN
+F 0 "#PWR0105" H 1475 5750 50  0001 C CNN
 F 1 "GND" H 1480 5827 50  0000 C CNN
 F 2 "" H 1475 6000 50  0001 C CNN
 F 3 "" H 1475 6000 50  0001 C CNN
@@ -1577,10 +1577,10 @@ IN
 Text Notes 2425 5700 0    60   ~ 12
 OUT
 $Comp
-L Device:R R?
+L Device:R R8
 U 1 1 5AD83835
 P 850 1550
-F 0 "R?" V 930 1550 50  0000 C CNN
+F 0 "R8" V 930 1550 50  0000 C CNN
 F 1 "10k" V 850 1550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 780 1550 50  0001 C CNN
 F 3 "" H 850 1550 50  0001 C CNN
@@ -1589,10 +1589,10 @@ F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR06
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0106
 U 1 1 5AD83C06
 P 850 1350
-F 0 "#PWR?" H 850 1200 50  0001 C CNN
+F 0 "#PWR0106" H 850 1200 50  0001 C CNN
 F 1 "+3.3V" H 850 1490 50  0000 C CNN
 F 2 "" H 850 1350 50  0001 C CNN
 F 3 "" H 850 1350 50  0001 C CNN
@@ -1604,10 +1604,10 @@ Wire Wire Line
 Wire Wire Line
 	850  1700 850  1750
 $Comp
-L Device:D_Small D?
+L Device:D_Small D3
 U 1 1 5AE82317
 P 1375 4100
-F 0 "D?" H 1375 4000 50  0000 C CNN
+F 0 "D3" H 1375 4000 50  0000 C CNN
 F 1 "D_Small" H 1375 4200 50  0000 C CNN
 F 2 "" V 1375 4100 50  0001 C CNN
 F 3 "~" V 1375 4100 50  0001 C CNN
@@ -1625,10 +1625,10 @@ Connection ~ 1275 4150
 Wire Wire Line
 	1275 4150 975  4150
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C36
 U 1 1 5AF930B2
 P 6825 5900
-F 0 "C?" H 6875 5975 50  0000 L CNN
+F 0 "C36" H 6875 5975 50  0000 L CNN
 F 1 "4.7μF" H 6850 5825 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6825 5900 50  0001 C CNN
 F 3 "" H 6825 5900 50  0001 C CNN
