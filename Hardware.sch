@@ -334,7 +334,7 @@ F 0 "C2" H 1410 1920 50  0000 L CNN
 F 1 "15pF" H 1410 1770 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1400 1850 50  0001 C CNN
 F 3 "" H 1400 1850 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10C150JB8NCNC/1276-2190-1-ND/3890276" H 1400 1850 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0603JRNPO9BN150/311-1060-1-ND/302970" H 1400 1850 50  0001 C CNN "Buy"
 	1    1400 1850
 	0    1    1    0   
 $EndComp
@@ -346,7 +346,7 @@ F 0 "C3" H 1410 2220 50  0000 L CNN
 F 1 "15pF" H 1410 2070 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1400 2150 50  0001 C CNN
 F 3 "" H 1400 2150 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10C150JB8NCNC/1276-2190-1-ND/3890276" H 1400 2150 60  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0603JRNPO9BN150/311-1060-1-ND/302970" H 1400 2150 60  0001 C CNN "Buy"
 	1    1400 2150
 	0    1    1    0   
 $EndComp
