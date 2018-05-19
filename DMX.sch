@@ -93,7 +93,7 @@ F 0 "R25" V 1130 2650 50  0000 C CNN
 F 1 "10k" V 1050 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 980 2650 50  0001 C CNN
 F 3 "" H 1050 2650 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0710KL/311-10.0KHRCT-ND/729827" V 1050 2650 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 1050 2650 50  0001 C CNN "Buy"
 	1    1050 2650
 	1    0    0    -1  
 $EndComp
@@ -116,7 +116,7 @@ F 0 "R26" V 1830 2650 50  0000 C CNN
 F 1 "10k" V 1750 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1680 2650 50  0001 C CNN
 F 3 "" H 1750 2650 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0710KL/311-10.0KHRCT-ND/729827" V 1750 2650 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 1750 2650 50  0001 C CNN "Buy"
 	1    1750 2650
 	1    0    0    -1  
 $EndComp
