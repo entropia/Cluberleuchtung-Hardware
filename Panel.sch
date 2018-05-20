@@ -283,7 +283,7 @@ F 0 "U7" H 2775 950 60  0000 C CNN
 F 1 "LM3406HV" H 2175 2050 60  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2375 2100 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm3406.pdf" H 2375 2100 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/texas-instruments/LM3406HVMHX-NOPB/LM3406HVMHX-NOPBCT-ND/3526958" H 2375 1500 60  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/texas-instruments/LM3406HVQMHXQ1/296-38110-1-ND/4967315" H 2375 1500 60  0001 C CNN "Buy"
 	1    2375 1500
 	1    0    0    -1  
 $EndComp
