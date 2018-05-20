@@ -237,13 +237,14 @@ F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C4
+L Device:C_Small C4
 U 1 1 5A469943
 P 4000 775
 F 0 "C4" V 4100 725 50  0000 L CNN
-F 1 "4.7μF" V 3900 675 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4000 775 50  0001 C CNN
+F 1 "1μF" V 3900 725 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4000 775 50  0001 C CNN
 F 3 "" H 4000 775 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/taiyo-yuden/TMK212B7105MG-T/587-5595-1-ND/7067270" V 4000 775 50  0001 C CNN "Digikey"
 	1    4000 775 
 	0    1    1    0   
 $EndComp
@@ -1625,13 +1626,14 @@ Connection ~ 1275 4150
 Wire Wire Line
 	1275 4150 975  4150
 $Comp
-L Device:CP_Small C36
+L Device:C_Small C36
 U 1 1 5AF930B2
 P 6825 5900
-F 0 "C36" H 6875 5975 50  0000 L CNN
-F 1 "4.7μF" H 6850 5825 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6825 5900 50  0001 C CNN
+F 0 "C36" H 6825 5975 50  0000 L CNN
+F 1 "1μF" H 6825 5825 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6825 5900 50  0001 C CNN
 F 3 "" H 6825 5900 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/taiyo-yuden/TMK212B7105MG-T/587-5595-1-ND/7067270" H 6825 5900 50  0001 C CNN "Digikey"
 	1    6825 5900
 	1    0    0    -1  
 $EndComp

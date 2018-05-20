@@ -774,7 +774,7 @@ F 0 "C8" H 1300 1100 50  0000 C CNN
 F 1 "1μF" H 1025 1100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1175 1100 50  0001 C CNN
 F 3 "~" H 1175 1100 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KOFNNNE/1276-1026-1-ND/3889112" H 1175 1100 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/taiyo-yuden/TMK212B7105MG-T/587-5595-1-ND/7067270" H 1175 1100 50  0001 C CNN "Buy"
 	1    1175 1100
 	0    1    1    0   
 $EndComp
@@ -817,7 +817,7 @@ F 0 "C20" H 9125 1950 50  0000 L CNN
 F 1 "1μF" H 9125 1800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9163 1725 50  0001 C CNN
 F 3 "~" H 9125 1875 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KOFNNNE/1276-1026-1-ND/3889112" H 9125 1875 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/taiyo-yuden/TMK212B7105MG-T/587-5595-1-ND/7067270" H 9125 1875 50  0001 C CNN "Buy"
 	1    9125 1875
 	1    0    0    -1  
 $EndComp
@@ -829,7 +829,7 @@ F 0 "C21" H 10450 1950 50  0000 L CNN
 F 1 "1μF" H 10450 1800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10488 1725 50  0001 C CNN
 F 3 "~" H 10450 1875 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KOFNNNE/1276-1026-1-ND/3889112" H 10450 1875 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/taiyo-yuden/TMK212B7105MG-T/587-5595-1-ND/7067270" H 10450 1875 50  0001 C CNN "Buy"
 	1    10450 1875
 	1    0    0    -1  
 $EndComp
