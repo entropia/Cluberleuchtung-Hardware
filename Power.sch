@@ -924,7 +924,7 @@ F 0 "C?" H 7050 1900 50  0000 L CNN
 F 1 "15pF" H 7050 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7050 1825 50  0001 C CNN
 F 3 "~" H 7050 1825 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/CC0603JRNPO9BN150/311-1060-1-ND/302970" H 7050 1825 50  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0603JRNPO9BN150/311-1060-1-ND/302970" H 7050 1825 50  0001 C CNN "Buy"
 	1    7050 1825
 	1    0    0    -1  
 $EndComp
@@ -936,7 +936,7 @@ F 0 "C?" H 7275 1900 50  0000 L CNN
 F 1 "15pF" H 7275 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7275 1825 50  0001 C CNN
 F 3 "~" H 7275 1825 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/yageo/CC0603JRNPO9BN150/311-1060-1-ND/302970" H 7275 1825 50  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/product-detail/en/yageo/CC0603JRNPO9BN150/311-1060-1-ND/302970" H 7275 1825 50  0001 C CNN "Buy"
 	1    7275 1825
 	1    0    0    -1  
 $EndComp
