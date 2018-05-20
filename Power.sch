@@ -254,12 +254,6 @@ F 4 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF060
 $EndComp
 Wire Wire Line
 	9575 1975 9575 2075
-Wire Wire Line
-	9125 1725 9125 1675
-Wire Wire Line
-	9125 2075 9125 2025
-Wire Wire Line
-	10450 2075 10450 2025
 Connection ~ 9125 1675
 Wire Wire Line
 	4625 1375 4675 1375
@@ -773,14 +767,14 @@ F 4 "https://www.digikey.com/product-detail/en/monolithic-power-systems-inc/MP45
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C8
+L Device:C_Small C8
 U 1 1 5AC62BA2
 P 1175 1100
 F 0 "C8" H 1300 1100 50  0000 C CNN
 F 1 "1μF" H 1025 1100 50  0000 C CNN
-F 2 "" H 1175 1100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1175 1100 50  0001 C CNN
 F 3 "~" H 1175 1100 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7R1A155K080AC/445-14233-1-ND/3955899" H 1175 1100 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KOFNNNE/1276-1026-1-ND/3889112" H 1175 1100 50  0001 C CNN "Buy"
 	1    1175 1100
 	0    1    1    0   
 $EndComp
@@ -816,26 +810,26 @@ F 4 "https://www.digikey.com/product-detail/en/rubycon/25TXV47M6.3X8/1189-2118-1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C20
+L Device:C_Small C20
 U 1 1 5AB4BBB9
 P 9125 1875
-F 0 "C20" H 9150 1975 50  0000 L CNN
-F 1 "1μF" H 9150 1800 50  0000 L CNN
-F 2 "" H 9163 1725 50  0001 C CNN
+F 0 "C20" H 9125 1950 50  0000 L CNN
+F 1 "1μF" H 9125 1800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9163 1725 50  0001 C CNN
 F 3 "~" H 9125 1875 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A105MP8NNNC/1276-1866-1-ND/3889952" H 9125 1875 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KOFNNNE/1276-1026-1-ND/3889112" H 9125 1875 50  0001 C CNN "Buy"
 	1    9125 1875
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C21
+L Device:C_Small C21
 U 1 1 5AB4BF97
 P 10450 1875
-F 0 "C21" H 10475 1975 50  0000 L CNN
-F 1 "1μF" H 10475 1800 50  0000 L CNN
-F 2 "" H 10488 1725 50  0001 C CNN
+F 0 "C21" H 10450 1950 50  0000 L CNN
+F 1 "1μF" H 10450 1800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10488 1725 50  0001 C CNN
 F 3 "~" H 10450 1875 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A105MP8NNNC/1276-1866-1-ND/3889952" H 10450 1875 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KOFNNNE/1276-1026-1-ND/3889112" H 10450 1875 50  0001 C CNN "Buy"
 	1    10450 1875
 	1    0    0    -1  
 $EndComp
@@ -852,8 +846,6 @@ F 3 "" H 10700 1625 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10450 1675 10700 1675
-Wire Wire Line
-	10450 1675 10450 1725
 Wire Wire Line
 	10700 1675 10700 1625
 Connection ~ 10700 1675
@@ -969,4 +961,12 @@ Wire Wire Line
 Connection ~ 7275 1675
 Wire Wire Line
 	7275 1675 7450 1675
+Wire Wire Line
+	9125 1675 9125 1775
+Wire Wire Line
+	9125 1975 9125 2075
+Wire Wire Line
+	10450 1675 10450 1775
+Wire Wire Line
+	10450 1975 10450 2075
 $EndSCHEMATC
