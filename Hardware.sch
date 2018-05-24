@@ -1605,13 +1605,14 @@ Wire Wire Line
 Wire Wire Line
 	850  1700 850  1750
 $Comp
-L Device:D_Small D3
+L Device:D_Schottky_Small D3
 U 1 1 5AE82317
 P 1375 4100
 F 0 "D3" H 1375 4000 50  0000 C CNN
 F 1 "D_Small" H 1375 4200 50  0000 C CNN
-F 2 "" V 1375 4100 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 1375 4100 50  0001 C CNN
 F 3 "~" V 1375 4100 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/smc-diode-solutions/15MQ060NTR/1655-1353-1-ND/6022798" H 1375 4100 50  0001 C CNN "Buy"
 	1    1375 4100
 	-1   0    0    1   
 $EndComp
