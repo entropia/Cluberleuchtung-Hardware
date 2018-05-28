@@ -281,7 +281,7 @@ AR Path="/5A4C34AF/5A77E620" Ref="U7"  Part="1"
 AR Path="/5A4C3F5F/5A77E620" Ref="U8"  Part="1" 
 F 0 "U7" H 2775 950 60  0000 C CNN
 F 1 "LM3406HV" H 2175 2050 60  0000 C CNN
-F 2 "" H 2375 2100 60  0001 C CNN
+F 2 "HTSSOP:HTSSOP-14_4.4x5mm_EP3x3.1mm_P0.65mm_ThermalPad" H 2375 2100 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm3406.pdf" H 2375 2100 60  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/texas-instruments/LM3406HVQMHXQ1/296-38110-1-ND/4967315" H 2375 1500 60  0001 C CNN "Buy"
 	1    2375 1500
