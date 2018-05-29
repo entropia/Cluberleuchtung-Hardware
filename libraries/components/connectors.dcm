@@ -5,6 +5,11 @@ D RJ45-Dual-Socket
 K RJ45, Dual, Sockt
 $ENDCMP
 #
+$CMP RJ45-NoShield
+D RJ45-Socket without a Shield
+K RJ45, Socket, Shieldless
+$ENDCMP
+#
 $CMP Rotated_Barrel
 D DC Barrel Jack
 K DC power barrel jack connector
