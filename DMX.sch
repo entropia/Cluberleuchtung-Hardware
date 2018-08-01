@@ -196,8 +196,6 @@ Wire Wire Line
 	2650 2400 2700 2400
 Wire Notes Line
 	3325 475  3325 3550
-Wire Notes Line
-	3325 3550 475  3550
 Text HLabel 1000 2450 0    60   Input ~ 0
 UART_RX
 Text HLabel 1650 2350 0    60   Input ~ 0
@@ -218,4 +216,220 @@ Wire Wire Line
 	2650 2400 2650 3150
 Wire Wire Line
 	3250 2400 3250 3150
+$Comp
+L 74xx:74LS596 U11
+U 1 1 5B606C69
+P 4425 2000
+F 0 "U11" H 4175 2550 50  0000 C CNN
+F 1 "NPIC6C596" H 4650 2550 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4425 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls596" H 4425 2000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/NPIC6C596ADJ/1727-1846-1-ND" H 4425 2000 50  0001 C CNN "Buy"
+	1    4425 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5B606E28
+P 4425 1200
+F 0 "#PWR0108" H 4425 1050 50  0001 C CNN
+F 1 "+3.3V" H 4440 1373 50  0000 C CNN
+F 2 "" H 4425 1200 50  0001 C CNN
+F 3 "" H 4425 1200 50  0001 C CNN
+	1    4425 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 1250 4425 1300
+$Comp
+L power:GND #PWR0109
+U 1 1 5B60719B
+P 4425 2900
+F 0 "#PWR0109" H 4425 2650 50  0001 C CNN
+F 1 "GND" H 4430 2727 50  0000 C CNN
+F 2 "" H 4425 2900 50  0001 C CNN
+F 3 "" H 4425 2900 50  0001 C CNN
+	1    4425 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 2850 4425 2800
+NoConn ~ 4925 2500
+$Comp
+L Switch:SW_DIP_x09 SW1
+U 1 1 5B607F5C
+P 5600 2000
+F 0 "SW1" H 5600 2667 50  0000 C CNN
+F 1 "SW_DIP_x09" H 5600 2576 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx09_Slide_9.78x25.04mm_W7.62mm_P2.54mm" H 5600 2000 50  0001 C CNN
+F 3 "" H 5600 2000 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/CTS-Electronic-Components/208-9?qs=sGAEpiMZZMv%2f%252b2JhlA6ysHQcghgNQprpyH0Hmu0C8KY%3d" H 5600 2000 50  0001 C CNN "Buy"
+	1    5600 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4925 1600 5300 1600
+Wire Wire Line
+	4925 1800 5300 1800
+Wire Wire Line
+	5300 1900 4925 1900
+Wire Wire Line
+	4925 2000 5300 2000
+Wire Wire Line
+	5300 2100 4925 2100
+Wire Wire Line
+	4925 2200 5300 2200
+Wire Wire Line
+	4925 2300 5300 2300
+Wire Wire Line
+	4925 1700 5300 1700
+Wire Wire Line
+	5975 1550 5975 1600
+Wire Wire Line
+	5975 1600 5900 1600
+Wire Wire Line
+	5975 1600 5975 1700
+Wire Wire Line
+	5975 1700 5900 1700
+Connection ~ 5975 1600
+Wire Wire Line
+	5975 1700 5975 1800
+Wire Wire Line
+	5975 1800 5900 1800
+Connection ~ 5975 1700
+Wire Wire Line
+	5975 1800 5975 1900
+Wire Wire Line
+	5975 1900 5900 1900
+Connection ~ 5975 1800
+Wire Wire Line
+	5900 2000 5975 2000
+Wire Wire Line
+	5975 2000 5975 1900
+Connection ~ 5975 1900
+Wire Wire Line
+	5975 2000 5975 2100
+Wire Wire Line
+	5975 2100 5900 2100
+Connection ~ 5975 2000
+Wire Wire Line
+	5900 2200 5975 2200
+Wire Wire Line
+	5975 2200 5975 2100
+Connection ~ 5975 2100
+Wire Wire Line
+	5975 2200 5975 2300
+Wire Wire Line
+	5975 2300 5900 2300
+Connection ~ 5975 2200
+Wire Wire Line
+	5900 2400 5975 2400
+Wire Wire Line
+	5975 2400 5975 2300
+Connection ~ 5975 2300
+$Comp
+L power:+3.3V #PWR0110
+U 1 1 5B60F84C
+P 5975 1200
+F 0 "#PWR0110" H 5975 1050 50  0001 C CNN
+F 1 "+3.3V" H 5990 1373 50  0000 C CNN
+F 2 "" H 5975 1200 50  0001 C CNN
+F 3 "" H 5975 1200 50  0001 C CNN
+	1    5975 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5B61165A
+P 5975 1400
+F 0 "R14" V 6055 1400 50  0000 C CNN
+F 1 "10k" V 5975 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5905 1400 50  0001 C CNN
+F 3 "" H 5975 1400 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 5975 1400 50  0001 C CNN "Buy"
+	1    5975 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5B611B4A
+P 3875 2525
+F 0 "R13" V 3955 2525 50  0000 C CNN
+F 1 "10k" V 3875 2525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3805 2525 50  0001 C CNN
+F 3 "" H 3875 2525 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 3875 2525 50  0001 C CNN "Buy"
+	1    3875 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3875 2375 3875 2200
+Wire Wire Line
+	3875 2200 3925 2200
+$Comp
+L Device:R R9
+U 1 1 5B61520A
+P 3875 1425
+F 0 "R9" V 3955 1425 50  0000 C CNN
+F 1 "10k" V 3875 1425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3805 1425 50  0001 C CNN
+F 3 "" H 3875 1425 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 3875 1425 50  0001 C CNN "Buy"
+	1    3875 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3875 1900 3875 1575
+Wire Wire Line
+	3875 2675 3875 2850
+Wire Wire Line
+	3875 1900 3925 1900
+Text HLabel 3725 1600 0    60   Input ~ 0
+S_SER
+Wire Wire Line
+	3725 1600 3925 1600
+Text HLabel 3725 1800 0    60   Input ~ 0
+S_CLK
+Wire Wire Line
+	3725 1800 3775 1800
+Wire Wire Line
+	3775 1800 3775 2100
+Wire Wire Line
+	3775 2100 3925 2100
+Connection ~ 3775 1800
+Wire Wire Line
+	3775 1800 3925 1800
+Text HLabel 5250 2450 3    60   Input ~ 0
+PULLM
+Wire Wire Line
+	5250 2450 5250 2400
+Wire Wire Line
+	5250 2400 5300 2400
+Text HLabel 5975 2450 3    60   Input ~ 0
+ADDR
+Wire Wire Line
+	5975 2450 5975 2400
+Connection ~ 5975 2400
+Wire Wire Line
+	3875 2850 4425 2850
+Connection ~ 4425 2850
+Wire Wire Line
+	3875 1275 3875 1250
+Wire Wire Line
+	3875 1250 4425 1250
+Connection ~ 4425 1250
+Wire Wire Line
+	4425 2850 4425 2900
+Wire Wire Line
+	4425 1200 4425 1250
+Wire Wire Line
+	5975 1200 5975 1250
+Text Notes 4925 3025 0    60   ~ 0
+State of #9 determines \nMaster-Mode
+Wire Notes Line
+	6225 3550 6225 475 
+Wire Notes Line
+	475  3550 6225 3550
+Text Notes 3325 625  0    120  ~ 0
+Address+Master
 $EndSCHEMATC
