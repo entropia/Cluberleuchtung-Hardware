@@ -1572,7 +1572,7 @@ U 1 1 5B58C10F
 P 3575 7600
 F 0 "J10" V 3575 7325 50  0000 L CNN
 F 1 "Conn_01x03" V 3675 7350 50  0000 L CNN
-F 2 "" H 3575 7600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3575 7600 50  0001 C CNN
 F 3 "~" H 3575 7600 50  0001 C CNN
 	1    3575 7600
 	0    1    1    0   
@@ -1605,6 +1605,29 @@ Text GLabel 2250 2650 0    60   Input ~ 0
 PULLM
 Text GLabel 6200 1750 2    60   Input ~ 0
 ADDR
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5B62FC75
+P 4375 7600
+F 0 "J?" V 4375 7325 50  0000 L CNN
+F 1 "Conn_01x03" V 4475 7350 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4375 7600 50  0001 C CNN
+F 3 "~" H 4375 7600 50  0001 C CNN
+	1    4375 7600
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	4175 6725 4275 6825
+Entry Wire Line
+	4275 6725 4375 6825
+Wire Wire Line
+	4275 6825 4275 7400
+Wire Wire Line
+	4375 6825 4375 7400
 Wire Bus Line
 	3175 6725 6400 6725
+Text Label 4275 6825 3    30   ~ 0
+RJ45-1
+Text Label 4375 6825 3    30   ~ 0
+RJ45-2
 $EndSCHEMATC
