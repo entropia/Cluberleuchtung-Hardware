@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+5V #PWR084
+L power:+5V #PWR090
 U 1 1 5A8476B7
 P 2050 1350
-F 0 "#PWR084" H 2050 1200 50  0001 C CNN
+F 0 "#PWR090" H 2050 1200 50  0001 C CNN
 F 1 "+5V" H 2050 1490 50  0000 C CNN
 F 2 "" H 2050 1350 50  0001 C CNN
 F 3 "" H 2050 1350 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 2050 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR081
+L power:+3.3V #PWR087
 U 1 1 5A8476BD
 P 1350 1350
-F 0 "#PWR081" H 1350 1200 50  0001 C CNN
+F 0 "#PWR087" H 1350 1200 50  0001 C CNN
 F 1 "+3.3V" H 1350 1490 50  0000 C CNN
 F 2 "" H 1350 1350 50  0001 C CNN
 F 3 "" H 1350 1350 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "" H 1350 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C33
+L Device:C_Small C37
 U 1 1 5A8476C5
 P 1900 1500
-F 0 "C33" V 2000 1450 50  0000 L CNN
+F 0 "C37" V 2000 1450 50  0000 L CNN
 F 1 "100nF" V 1800 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1900 1500 50  0001 C CNN
 F 3 "" H 1900 1500 50  0001 C CNN
@@ -49,10 +49,10 @@ F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C32
+L Device:C_Small C36
 U 1 1 5A8476CC
 P 1500 1500
-F 0 "C32" V 1600 1450 50  0000 L CNN
+F 0 "C36" V 1600 1450 50  0000 L CNN
 F 1 "100nF" V 1400 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1500 1500 50  0001 C CNN
 F 3 "" H 1500 1500 50  0001 C CNN
@@ -61,10 +61,10 @@ F 4 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R22
+L Device:R R24
 U 1 1 5A8476D3
 P 950 2200
-F 0 "R22" V 850 2250 50  0000 C CNN
+F 0 "R24" V 850 2250 50  0000 C CNN
 F 1 "10k" V 950 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 880 2200 50  0001 C CNN
 F 3 "" H 950 2200 50  0001 C CNN
@@ -75,10 +75,10 @@ $EndComp
 Text Notes 475  625  0    120  ~ 0
 CAN-Transceiver
 $Comp
-L power:GND #PWR083
+L power:GND #PWR089
 U 1 1 5A8476DB
 P 1700 2700
-F 0 "#PWR083" H 1700 2450 50  0001 C CNN
+F 0 "#PWR089" H 1700 2450 50  0001 C CNN
 F 1 "GND" H 1700 2550 50  0000 C CNN
 F 2 "" H 1700 2700 50  0001 C CNN
 F 3 "" H 1700 2700 50  0001 C CNN
@@ -86,10 +86,10 @@ F 3 "" H 1700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR082
+L power:GND #PWR088
 U 1 1 5A8476E1
 P 1700 1600
-F 0 "#PWR082" H 1700 1350 50  0001 C CNN
+F 0 "#PWR088" H 1700 1350 50  0001 C CNN
 F 1 "GND" H 1700 1450 50  0000 C CNN
 F 2 "" H 1700 1600 50  0001 C CNN
 F 3 "" H 1700 1600 50  0001 C CNN
@@ -97,10 +97,10 @@ F 3 "" H 1700 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR080
+L power:GND #PWR086
 U 1 1 5A8476E7
 P 650 2250
-F 0 "#PWR080" H 650 2000 50  0001 C CNN
+F 0 "#PWR086" H 650 2000 50  0001 C CNN
 F 1 "GND" H 650 2100 50  0000 C CNN
 F 2 "" H 650 2250 50  0001 C CNN
 F 3 "" H 650 2250 50  0001 C CNN
@@ -120,10 +120,10 @@ F 4 "https://www.digikey.com/product-detail/en/infineon-technologies/TLE7250VSJX
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R23
+L Device:R R25
 U 1 1 5A8476F4
 P 2700 2550
-F 0 "R23" V 2780 2550 50  0000 C CNN
+F 0 "R25" V 2780 2550 50  0000 C CNN
 F 1 "120" V 2700 2550 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 2630 2550 50  0001 C CNN
 F 3 "" H 2700 2550 50  0001 C CNN
@@ -132,10 +132,10 @@ F 4 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-07120RL/311-120FRC
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NC_Small JP1
+L Device:Jumper_NC_Small JP4
 U 1 1 5A84773B
 P 2400 2550
-F 0 "JP1" H 2400 2630 50  0000 C CNN
+F 0 "JP4" H 2400 2630 50  0000 C CNN
 F 1 "Jumper" H 2410 2490 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 2400 2550 50  0001 C CNN
 F 3 "" H 2400 2550 50  0001 C CNN
