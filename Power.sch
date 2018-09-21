@@ -248,7 +248,7 @@ F 0 "R7" V 905 1600 50  0000 C CNN
 F 1 "1M" V 825 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 755 1600 50  0001 C CNN
 F 3 "" H 825 1600 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603JG1M00/RMCF0603JG1M00CT-ND/6053178" V 825 1600 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/short/jw2wc9" V 825 1600 50  0001 C CNN "Buy"
 	1    825  1600
 	0    1    1    0   
 $EndComp
