@@ -350,7 +350,7 @@ F 0 "C27" H 1325 1375 50  0000 L CNN
 F 1 "100nF" H 1325 1225 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1300 1300 50  0001 C CNN
 F 3 "~" H 1300 1300 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104KCFWPNE/1276-6733-1-ND/5961592" H 1300 1300 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/short/jw2w8v" H 1300 1300 50  0001 C CNN "Buy"
 	1    1300 1300
 	1    0    0    -1  
 $EndComp

@@ -187,7 +187,7 @@ F 0 "C14" H 2235 1820 50  0000 L CNN
 F 1 "100nF" H 2225 1675 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2225 1750 50  0001 C CNN
 F 3 "" H 2225 1750 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104KCFWPNE/1276-6733-1-ND/5961592" H 2225 1750 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/short/jw2w8v" H 2225 1750 50  0001 C CNN "Buy"
 	1    2225 1750
 	1    0    0    -1  
 $EndComp
@@ -235,7 +235,7 @@ F 0 "C13" H 1835 1170 50  0000 L CNN
 F 1 "100nF" H 1825 1025 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1825 1100 50  0001 C CNN
 F 3 "" H 1825 1100 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104KCFWPNE/1276-6733-1-ND/5961592" H 1825 1100 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/short/jw2w8v" H 1825 1100 50  0001 C CNN "Buy"
 	1    1825 1100
 	0    -1   -1   0   
 $EndComp
