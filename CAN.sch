@@ -68,7 +68,7 @@ F 0 "R24" V 850 2250 50  0000 C CNN
 F 1 "10k" V 950 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 880 2200 50  0001 C CNN
 F 3 "" H 950 2200 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 950 2200 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/short/jw22d4" V 950 2200 50  0001 C CNN "Buy"
 	1    950  2200
 	0    1    1    0   
 $EndComp

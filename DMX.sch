@@ -93,7 +93,7 @@ F 0 "R27" V 1130 2650 50  0000 C CNN
 F 1 "10k" V 1050 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 980 2650 50  0001 C CNN
 F 3 "" H 1050 2650 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 1050 2650 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/short/jw22d4" V 1050 2650 50  0001 C CNN "Buy"
 	1    1050 2650
 	1    0    0    -1  
 $EndComp
@@ -116,7 +116,7 @@ F 0 "R28" V 1830 2650 50  0000 C CNN
 F 1 "10k" V 1750 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1680 2650 50  0001 C CNN
 F 3 "" H 1750 2650 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 1750 2650 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/short/jw22d4" V 1750 2650 50  0001 C CNN "Buy"
 	1    1750 2650
 	1    0    0    -1  
 $EndComp
@@ -346,7 +346,7 @@ F 0 "R32" V 6055 1400 50  0000 C CNN
 F 1 "10k" V 5975 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5905 1400 50  0001 C CNN
 F 3 "" H 5975 1400 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 5975 1400 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/short/jw22d4" V 5975 1400 50  0001 C CNN "Buy"
 	1    5975 1400
 	1    0    0    -1  
 $EndComp
@@ -358,7 +358,7 @@ F 0 "R31" V 3955 2525 50  0000 C CNN
 F 1 "10k" V 3875 2525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3805 2525 50  0001 C CNN
 F 3 "" H 3875 2525 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 3875 2525 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/short/jw22d4" V 3875 2525 50  0001 C CNN "Buy"
 	1    3875 2525
 	1    0    0    -1  
 $EndComp
@@ -374,7 +374,7 @@ F 0 "R30" V 3980 1425 50  0000 C CNN
 F 1 "10k" V 3900 1425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 1425 50  0001 C CNN
 F 3 "" H 3900 1425 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 3900 1425 50  0001 C CNN "Buy"
+F 4 "https://www.digikey.com/short/jw22d4" V 3900 1425 50  0001 C CNN "Buy"
 	1    3900 1425
 	1    0    0    -1  
 $EndComp
