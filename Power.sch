@@ -361,7 +361,6 @@ Wire Wire Line
 Wire Wire Line
 	1925 1100 2025 1100
 Connection ~ 2025 1100
-NoConn ~ 2175 2600
 $Comp
 L Device:R R9
 U 1 1 5A79E4DE
@@ -969,4 +968,33 @@ Wire Wire Line
 	10450 1675 10450 1775
 Wire Wire Line
 	10450 1975 10450 2075
+$Comp
+L Device:C_Small C?
+U 1 1 5B7479D3
+P 2275 2800
+F 0 "C?" H 2400 2800 50  0000 C CNN
+F 1 "1μF" H 2125 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2275 2800 50  0001 C CNN
+F 3 "~" H 2275 2800 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/taiyo-yuden/TMK212B7105MG-T/587-5595-1-ND/7067270" H 2275 2800 50  0001 C CNN "Buy"
+	1    2275 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2175 2600 2275 2600
+Wire Wire Line
+	2275 2600 2275 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5B74AE60
+P 2275 3050
+F 0 "#PWR?" H 2275 2800 50  0001 C CNN
+F 1 "GND" H 2275 2900 50  0000 C CNN
+F 2 "" H 2275 3050 50  0001 C CNN
+F 3 "" H 2275 3050 50  0001 C CNN
+	1    2275 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2275 2900 2275 3050
 $EndSCHEMATC
