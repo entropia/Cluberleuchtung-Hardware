@@ -639,7 +639,7 @@ F 4 "https://www.digikey.com/product-detail/en/diodes-incorporated/AP65251WU-7/A
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point T3
+L Connector:TestPoint T3
 U 1 1 5AB61A04
 P 10450 1675
 F 0 "T3" H 10400 1875 50  0000 L CNN
@@ -653,7 +653,7 @@ Wire Wire Line
 	9875 1675 9975 1675
 Connection ~ 10450 1675
 $Comp
-L Connector_Specialized:Test_Point T2
+L Connector:TestPoint T2
 U 1 1 5AB7C501
 P 7950 1675
 F 0 "T2" H 7900 1875 50  0000 L CNN
@@ -665,7 +665,7 @@ F 3 "~" H 8150 1675 50  0001 C CNN
 $EndComp
 Connection ~ 7950 1675
 $Comp
-L Connector_Specialized:Test_Point T1
+L Connector:TestPoint T1
 U 1 1 5AB8F83C
 P 3475 1900
 F 0 "T1" H 3425 2100 50  0000 L CNN

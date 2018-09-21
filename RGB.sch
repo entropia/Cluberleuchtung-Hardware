@@ -159,7 +159,7 @@ $EndComp
 Wire Wire Line
 	1000 2400 850  2400
 $Comp
-L Connector_Specialized:Screw_Terminal_01x04 J11
+L Connector:Screw_Terminal_01x04 J11
 U 1 1 5A84BDDF
 P 2425 850
 F 0 "J11" H 2425 1050 50  0000 C CNN

@@ -240,7 +240,7 @@ F 3 "" H 4425 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4425 1250 4425 1300
+	4425 1250 4425 1400
 $Comp
 L power:GND #PWR096
 U 1 1 5B60719B
@@ -253,8 +253,8 @@ F 3 "" H 4425 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4425 2850 4425 2800
-NoConn ~ 4925 2500
+	4425 2850 4425 2700
+NoConn ~ 4825 2500
 $Comp
 L Switch:SW_DIP_x09 SW1
 U 1 1 5B607F5C
@@ -268,21 +268,21 @@ F 4 "https://www.mouser.de/ProductDetail/CTS-Electronic-Components/208-9?qs=sGAE
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4925 1600 5300 1600
+	4825 1600 5300 1600
 Wire Wire Line
-	4925 1800 5300 1800
+	4825 1800 5300 1800
 Wire Wire Line
-	5300 1900 4925 1900
+	5300 1900 4825 1900
 Wire Wire Line
-	4925 2000 5300 2000
+	4825 2000 5300 2000
 Wire Wire Line
-	5300 2100 4925 2100
+	5300 2100 4825 2100
 Wire Wire Line
-	4925 2200 5300 2200
+	4825 2200 5300 2200
 Wire Wire Line
-	4925 2300 5300 2300
+	4825 2300 5300 2300
 Wire Wire Line
-	4925 1700 5300 1700
+	4825 1700 5300 1700
 Wire Wire Line
 	5975 1550 5975 1600
 Wire Wire Line
@@ -365,29 +365,29 @@ $EndComp
 Wire Wire Line
 	3875 2375 3875 2200
 Wire Wire Line
-	3875 2200 3925 2200
+	3875 2200 4025 2200
 $Comp
 L Device:R R30
 U 1 1 5B61520A
-P 3875 1425
-F 0 "R30" V 3955 1425 50  0000 C CNN
-F 1 "10k" V 3875 1425 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3805 1425 50  0001 C CNN
-F 3 "" H 3875 1425 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 3875 1425 50  0001 C CNN "Buy"
-	1    3875 1425
+P 3900 1425
+F 0 "R30" V 3980 1425 50  0000 C CNN
+F 1 "10k" V 3900 1425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 1425 50  0001 C CNN
+F 3 "" H 3900 1425 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-1002HLF/CR0603-FX-1002HLFCT-ND/3925297" V 3900 1425 50  0001 C CNN "Buy"
+	1    3900 1425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3875 1900 3875 1575
+	3900 1900 3900 1575
 Wire Wire Line
 	3875 2675 3875 2850
 Wire Wire Line
-	3875 1900 3925 1900
+	3900 1900 4025 1900
 Text HLabel 3725 1600 0    60   Input ~ 0
 S_SER
 Wire Wire Line
-	3725 1600 3925 1600
+	3725 1600 4025 1600
 Text HLabel 3725 1800 0    60   Input ~ 0
 S_CLK
 Wire Wire Line
@@ -395,10 +395,10 @@ Wire Wire Line
 Wire Wire Line
 	3775 1800 3775 2100
 Wire Wire Line
-	3775 2100 3925 2100
+	3775 2100 4025 2100
 Connection ~ 3775 1800
 Wire Wire Line
-	3775 1800 3925 1800
+	3775 1800 4025 1800
 Text HLabel 5250 2450 3    60   Input ~ 0
 PULLM
 Wire Wire Line
@@ -414,9 +414,9 @@ Wire Wire Line
 	3875 2850 4425 2850
 Connection ~ 4425 2850
 Wire Wire Line
-	3875 1275 3875 1250
+	3900 1275 3900 1250
 Wire Wire Line
-	3875 1250 4425 1250
+	3900 1250 4425 1250
 Connection ~ 4425 1250
 Wire Wire Line
 	4425 2850 4425 2900

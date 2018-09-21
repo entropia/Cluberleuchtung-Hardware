@@ -601,7 +601,7 @@ F 3 "" H 975 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Conn_01x05_Female J2
+L Connector:Conn_01x05_Female J2
 U 1 1 5A87D7AE
 P 1825 5900
 F 0 "J2" H 1825 6200 50  0000 C CNN
@@ -623,7 +623,7 @@ F 3 "" H 1575 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Conn_01x03_Female J3
+L Connector:Conn_01x03_Female J3
 U 1 1 5A880979
 P 1825 6725
 F 0 "J3" H 1775 6900 50  0000 C CNN
