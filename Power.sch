@@ -997,4 +997,6 @@ F 3 "" H 2275 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2275 2900 2275 3050
+Text Notes 675  3225 1    60   ~ 0
+COMP depends on\nthe ESR(recalculate)
 $EndSCHEMATC
